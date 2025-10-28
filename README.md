@@ -5,12 +5,11 @@ Personal website template with resizable panels & MDX content management.
 ## Features
 
 - **Resizable Panels**: Drag the dithered borders between panels to create your perfect layout
-- **Double Border Aesthetic**: Distinctive double border design on the sidebar
 - **Decorative Ribbon**: Book-inspired ribbon bookmark detail
 - **Mobile Responsive**: Seamless hamburger menu for mobile devices
 - **MDX Content System**: Write notes and book reviews in Markdown with frontmatter metadata
 - **Build-time Generation**: Lightning-fast performance with pre-processed content
-- **Custom Typography**: Beautiful font stack featuring Zalando Sans, STIX Two Text serif, and JetBrains Mono
+- **Custom Typography**: Font stack ft. Zalando Sans, STIX Two Text serif, and JetBrains Mono
 - **Paper Grain Texture**: Subtle background texture for a tactile, analog feel
 
 ## Quick Start
