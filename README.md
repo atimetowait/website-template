@@ -1,6 +1,6 @@
-# Personal Website Template
+# Cozy website template
 
-Personal website template with resizable panels, MDX content management, and a unique aesthetic inspired by bookshelf design.
+Personal website template with resizable panels & MDX content management.
 
 ## Features
 
@@ -135,8 +135,4 @@ This template is ready to deploy to:
 
 ## License
 
-MIT License - feel free to use this template for your own personal website!
-
-## Credits
-
-Built with Next.js, Tailwind CSS, and love for minimalist design.
+MIT License
