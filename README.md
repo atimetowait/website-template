@@ -1,6 +1,6 @@
-# Minimalist Portfolio Template
+# Personal Website Template
 
-A beautiful, minimalist personal website template with resizable panels, MDX content management, and a unique aesthetic inspired by bookshelf design.
+Personal website template with resizable panels, MDX content management, and a unique aesthetic inspired by bookshelf design.
 
 ## Features
 
