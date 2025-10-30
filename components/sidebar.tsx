@@ -1,7 +1,7 @@
 import { cn } from "@/lib/utils"
 import { ResizeHandle } from "./resize-handle"
 
-type Tab = "about" | "bookshelf" | "notes"
+type Tab = "about" | "bookshelf" | "notes" 
 
 interface SidebarProps {
   activeTab: Tab

@@ -13,12 +13,12 @@ const stixTwoText = {
 }
 
 export const metadata: Metadata = {
-  title: "floguo's cozy nook",
-  description: "personal website of flora guo",
+  title: "atimetowait",
+  description: "a time waiting",
   generator: "v0.app",
   icons: {
     icon: {
-      url: 'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y=".9em" font-size="90">📚</text></svg>',
+      url: 'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y=".9em" font-size="100">📚</text></svg>',
       type: 'image/svg+xml',
     },
   },

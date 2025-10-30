@@ -11,49 +11,22 @@ export interface Book {
 
 export const books: Book[] = [
   {
-    "slug": "analog",
-    "title": "Analog",
-    "author": "Robert Hassan",
-    "year": 2022,
-    "lastUpdated": "10-26-2025",
+    "slug": "houseofleaves",
+    "title": "House of Leaves",
+    "author": "Mark Z. Danielewski",
+    "year": 2000,
+    "lastUpdated": "10-29-2025",
     "hasNotes": true,
     "isReading": true,
-    "content": "<ul><li>Zen and the Art of Motorcycle Maintenance, Robert Pirsig (1974), p. 38</li></ul>"
+    "content": "<ul><li>My all-time favorite book — House of Leaves, holds the dearest place in my heart.  </li></ul>\n<p>I first read it at 15, as a confused shell of myself.  It forever changed the course of not only how I view literature, but how I view my life.   Even what I want my own art to breathe towards, one day.</p>\n<ul><li>I wanted to change the world with my art since the first stumblings I ever had, I wanted to know that I could be as important alongside it.</li></ul>\n<blockquote>THIS HAS ALWAYS BEEN WHAT I WANTED.</blockquote>"
   },
   {
-    "slug": "colors-of-wes-anderson",
-    "title": "Colors of Wes Anderson",
-    "author": "Hannah Strong",
-    "year": 2025,
-    "hasNotes": false,
-    "isReading": false,
-    "content": ""
-  },
-  {
-    "slug": "prayer",
-    "title": "Prayer",
-    "author": "Timothy Keller",
-    "year": 2014,
+    "slug": "timewar",
+    "title": "This Is How You Lose the Time War",
+    "author": "Amal El-Mohtar & Max Gladstone",
+    "year": 2019,
     "hasNotes": false,
     "isReading": true,
-    "content": ""
-  },
-  {
-    "slug": "severence",
-    "title": "Severance",
-    "author": "Ling Ma",
-    "year": 2018,
-    "hasNotes": false,
-    "isReading": false,
-    "content": ""
-  },
-  {
-    "slug": "wabi-sabi",
-    "title": "Wabi-Sabi for Artists, Designers, and Creatives",
-    "author": "Leonard Koren",
-    "year": 1994,
-    "hasNotes": false,
-    "isReading": false,
     "content": ""
   }
 ]
