@@ -658,9 +658,9 @@ const books = [
         "title": "This Is How You Lose the Time War",
         "author": "Amal El-Mohtar & Max Gladstone",
         "year": 2019,
-        "hasNotes": false,
+        "hasNotes": true,
         "isReading": true,
-        "content": ""
+        "content": "<ul><li>A book that makes me think about the ebb, and flow of conversation. The growth of our nature, and the fallbacks of our own — time &amp; time again.</li></ul>\n<p>Still actively appreciating my read through, one I have to backtrack from time to time on. Keeping up on the subtleties.</p>"
     }
 ];
 }),
