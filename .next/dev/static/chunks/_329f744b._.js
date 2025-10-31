@@ -135,17 +135,20 @@ function Sidebar({ activeTab, onTabChange, width, isDragging, onMouseDown, mobil
     const tabs = [
         "about",
         "bookshelf",
-        "notes"
+        "notes",
+        "Is this what you want?",
+        "Don't Blink!",
+        "I thought...I could run forever."
     ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("aside", {
         style: {
             width: `${width}px`,
             borderRight: '3px double var(--border)'
         },
-        className: "jsx-4fa6cc95b3bff62" + " " + ((0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cn"])("relative shrink-0 bg-background", "max-md:fixed max-md:inset-y-0 max-md:left-0 max-md:z-40 max-md:shadow-lg", "max-md:transition-transform max-md:duration-150", mobileMenuOpen ? "max-md:translate-x-0" : "max-md:-translate-x-full") || ""),
+        className: "jsx-44a56f9832ad1275" + " " + ((0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cn"])("relative shrink-0 bg-background", "max-md:fixed max-md:inset-y-0 max-md:left-0 max-md:z-40 max-md:shadow-lg", "max-md:transition-transform max-md:duration-150", mobileMenuOpen ? "max-md:translate-x-0" : "max-md:-translate-x-full") || ""),
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "jsx-4fa6cc95b3bff62" + " " + "absolute top-0 left-8 w-8 h-40 z-10 group",
+                className: "jsx-44a56f9832ad1275" + " " + "absolute top-0 left-8 w-8 h-40 z-10 group",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     style: {
                         background: 'linear-gradient(135deg, oklch(0.42 0.18 25), oklch(0.52 0.18 25) 50%, oklch(0.42 0.18 25))',
@@ -153,7 +156,7 @@ function Sidebar({ activeTab, onTabChange, width, isDragging, onMouseDown, mobil
                         clipPath: 'polygon(0 0, 100% 0, 100% 100%, 50% calc(100% - 12px), 0 100%)',
                         boxShadow: '2px 2px 6px rgba(0,0,0,0.3), inset -1px -1px 2px rgba(0,0,0,0.2)'
                     },
-                    className: "jsx-4fa6cc95b3bff62" + " " + "w-full h-full relative overflow-hidden"
+                    className: "jsx-44a56f9832ad1275" + " " + "w-full h-full relative overflow-hidden"
                 }, void 0, false, {
                     fileName: "[project]/components/sidebar.tsx",
                     lineNumber: 30,
@@ -165,14 +168,14 @@ function Sidebar({ activeTab, onTabChange, width, isDragging, onMouseDown, mobil
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                id: "4fa6cc95b3bff62",
+                id: "44a56f9832ad1275",
                 children: "@keyframes sheen{0%{transform:translate(-100%)}to{transform:translate(200%)}}"
             }, void 0, false, void 0, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
-                className: "jsx-4fa6cc95b3bff62" + " " + "flex flex-col gap-2 p-8 pt-54",
+                className: "jsx-44a56f9832ad1275" + " " + "flex flex-col gap-2 p-8 pt-54",
                 children: tabs.map((tab)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                         onClick: ()=>onTabChange(tab),
-                        className: "jsx-4fa6cc95b3bff62" + " " + ((0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cn"])("text-left py-1 transition-colors uppercase tracking-widest text-xs", activeTab === tab ? "text-foreground" : "text-foreground/40 hover:text-foreground/70") || ""),
+                        className: "jsx-44a56f9832ad1275" + " " + ((0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cn"])("text-left py-1 transition-colors uppercase tracking-widest text-xs", activeTab === tab ? "text-foreground" : "text-foreground/40 hover:text-foreground/70") || ""),
                         children: tab.charAt(0).toUpperCase() + tab.slice(1)
                     }, tab, false, {
                         fileName: "[project]/components/sidebar.tsx",
@@ -507,7 +510,7 @@ const notes = [
     {
         "slug": "asdeepasitistall",
         "title": "As deep as it is tall",
-        "date": "2025",
+        "date": "September 2025",
         "excerpt": "",
         "content": "<p>It's still there, right here actually.  Beaming in my chest—refracted light. With it, the moths seem to do all they can to see who'll shrivel up first. But deeper in cavities, there lay a thread. Ever so small, but still as deep as it is tall. This thread, it…calls to you. To a pattern that's unknown in form but with ecstasy it erupts. I didn't know what to do with it either. I didn't heed the calls, or answer the prayers—let alone, look it in its eyes when it spoke to me. For me, it knows every scent.</p>\n<p>Maybe you saw her first though? Caught a glimpse between the lines, between the letters? Like a ghost in the mirror. A ghost in the wings?</p>\n<p>Like sirens, entrenching weight follows each tone. Enough to keep my head below the surface level.  Deep breathes in and out of clarity help. Though the undertow unravels all, it'll even make a warrior out of you, promise it your secrets too—you don't have anything to hide still…do you?  Speak. Or,</p>\n<p>Forever hold your peace.</p>\n<p>I laid there in the dark for some while.  I thought indifference couldn't follow me here. I thought black didn't fade to gray, I thought I'd never lose my footing. I thought—</p>\n<p>That's all I'll ever do is think.  Think, for what exactly? To rebuttal an already exposed sore? All you can do is hurt, but watch them break down the grease, then, trust. It was never meant to hold you this close yet, you're still in its wake. The knowledge is comforting, and what lingers inside of you is foreboding—an instinctual nature that lie deep in those wounds.</p>\n<p>To weep or not is more worrying than the onset of tears. The last thing on your face before death, the last thing on your mind. What are you thinking? Do you even think, in a moment like that? Are you thinking right now? And why is that bothersome, or burdensome? Even worse, worrisome.  Because the more you worry, the more it drills farther into this husk, a husk with bones. A husk with feelings, that need reminded of life, and not death. Not superficial crystals, or inescapable dialogues with people who wouldn't dare dip their toes into your tepid waters. But climax, and to be displayed like a figurine. I want bullets with no exit wounds, depth with no drowning, nothing to bring me back to something. I'll watch the world relapse, I'll cherish a fleeting breath, I'll love just a little harder so that when I shout your name it wouldn't dare return back an echo, for there can be no other alter. I'd lay with my peace, and count til three.</p>\n<p>Suddenly there's the bell, how it chimes is unrecognizable now but I still feel the vibrations in my chest that remind me—it's home.  I wallow in my slowness for a bit. I wallow a fair bit, actually. Mainly with reminiscence towards the past, and towards this present I wouldn't dare predict. There are school kids that run around again, and still, I can find home wherever I see fit.</p>"
     },
@@ -701,7 +704,7 @@ const books = [
         "lastUpdated": "10-29-2025",
         "hasNotes": true,
         "isReading": true,
-        "content": "<ul><li>My all-time favorite book — House of Leaves, holds the dearest place in my heart.  </li></ul>\n<p>I first read it at 15, as a confused shell of myself.  It forever changed the course of not only how I view literature, but how I view my life.   Even what I want my own art to breathe towards, one day.</p>\n<ul><li>I wanted to change the world with my art since the first stumblings I ever had, I wanted to know that I could be as important alongside it.</li></ul>\n<blockquote>THIS HAS ALWAYS BEEN WHAT I WANTED.</blockquote>"
+        "content": "<ul><li>My all-time favorite book — House of Leaves, holds the dearest place in my heart.  </li></ul>\n<p>I first read it at 15, as a confused shell of myself.  It forever changed the course of not only how I view literature, but how I view my life.   Even what I want my own art to breathe towards, one day.</p>\n<ul><li>I wanted to change the world with my art since the first stumblings I ever had, I wanted to know that I could be as important alongside it.</li></ul>\n<blockquote>THIS HAS ALWAYS BEEN WHAT I WANTED. </blockquote>"
     },
     {
         "slug": "timewar",

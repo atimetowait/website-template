@@ -18,7 +18,7 @@ export const books: Book[] = [
     "lastUpdated": "10-29-2025",
     "hasNotes": true,
     "isReading": true,
-    "content": "<ul><li>My all-time favorite book — House of Leaves, holds the dearest place in my heart.  </li></ul>\n<p>I first read it at 15, as a confused shell of myself.  It forever changed the course of not only how I view literature, but how I view my life.   Even what I want my own art to breathe towards, one day.</p>\n<ul><li>I wanted to change the world with my art since the first stumblings I ever had, I wanted to know that I could be as important alongside it.</li></ul>\n<blockquote>THIS HAS ALWAYS BEEN WHAT I WANTED.</blockquote>"
+    "content": "<ul><li>My all-time favorite book — House of Leaves, holds the dearest place in my heart.  </li></ul>\n<p>I first read it at 15, as a confused shell of myself.  It forever changed the course of not only how I view literature, but how I view my life.   Even what I want my own art to breathe towards, one day.</p>\n<ul><li>I wanted to change the world with my art since the first stumblings I ever had, I wanted to know that I could be as important alongside it.</li></ul>\n<blockquote>THIS HAS ALWAYS BEEN WHAT I WANTED. </blockquote>"
   },
   {
     "slug": "timewar",
