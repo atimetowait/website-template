@@ -52,7 +52,7 @@ export function AboutSection() {
   
       </div>
 
-      <div className="flex items-center gap-2 pt-4">
+      <div className="flex items-center gap-3 pt-4">
         <span className="text-muted-foreground">Links:</span>
         <a
           href="https://instagram.com/timescriber"
