@@ -1,6 +1,5 @@
 import { books } from "@/content/books"
 import { cn } from "@/lib/utils"
-import { ResizeHandle } from "./resize-handle"
 import { Footer } from "./footer"
 
 interface BookshelfListProps {
@@ -103,8 +102,6 @@ export function BookshelfList({ selectedBook, onSelectBook, width, isDragging, o
 
         <Footer />
       </div>
-
-      {selectedBook && <ResizeHandle onMouseDown={onMouseDown} isDragging={isDragging} />}
     </div>
   )
 }

@@ -2,7 +2,6 @@
 
 import { useState } from "react"
 import { Menu, X } from "lucide-react"
-import { useResizable } from "@/hooks/use-resizable"
 import { Sidebar } from "@/components/sidebar"
 import { AboutSection } from "@/components/about-section"
 import { NotesList } from "@/components/notes-list"
@@ -19,19 +18,25 @@ export default function PersonalWebsite() {
   const [selectedBook, setSelectedBook] = useState<string | null>(null)
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
-  const sidebar = useResizable({ initialWidth: 192, minWidth: 150, maxWidth: 400 })
-  const notesList = useResizable({
-    initialWidth: 600,
-    minWidth: 200,
-    maxWidth: 600,
-    offsetX: sidebar.width,
-  })
-  const bookList = useResizable({
-    initialWidth: 600,
-    minWidth: 200,
-    maxWidth: 600,
-    offsetX: sidebar.width,
-  })
+ const sidebarWidth = 320 // Change this number to adjust sidebar width
+const notesListWidth = 600
+const bookListWidth = 600
+
+const sidebar = {
+  width: sidebarWidth,
+  isDragging: false,
+  handleMouseDown: () => {}
+}
+const notesList = {
+  width: notesListWidth,
+  isDragging: false,
+  handleMouseDown: () => {}
+}
+const bookList = {
+  width: bookListWidth,
+  isDragging: false,
+  handleMouseDown: () => {}
+}
 
   const handleTabChange = (tab: Tab) => {
     setActiveTab(tab)

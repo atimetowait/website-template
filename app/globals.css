@@ -43,7 +43,7 @@
 
 @theme inline {
   --font-sans: "Zalando Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  --font-mono: "JetBrains Mono", monospace;
+  --font-mono: "Space Mono", monospace;
   --font-serif: "Lora",serif;
   --color-background: var(--background);
   --color-foreground: var(--foreground);

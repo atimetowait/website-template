@@ -1,5 +1,4 @@
 import { cn } from "@/lib/utils"
-import { ResizeHandle } from "./resize-handle"
 
 type Tab = "about" | "bookshelf" | "notes" | "Is this what you want!?" | "Don't Blink!" | "I thought...I could run forever."
 
@@ -51,8 +50,6 @@ export function Sidebar({ activeTab, onTabChange, width, isDragging, onMouseDown
           </button>
         ))}
       </nav>
-
-      <ResizeHandle onMouseDown={onMouseDown} isDragging={isDragging} />
     </aside>
   )
 }

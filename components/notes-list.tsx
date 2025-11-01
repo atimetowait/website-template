@@ -1,6 +1,5 @@
 import { notes } from "@/content/notes"
 import { cn } from "@/lib/utils"
-import { ResizeHandle } from "./resize-handle"
 import { Footer } from "./footer"
 
 interface NotesListProps {
@@ -59,8 +58,6 @@ export function NotesList({ selectedNote, onSelectNote, width, isDragging, onMou
 
         <Footer />
       </div>
-
-      {selectedNote && <ResizeHandle onMouseDown={onMouseDown} isDragging={isDragging} />}
     </div>
   )
 }
