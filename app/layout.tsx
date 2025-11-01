@@ -3,6 +3,7 @@ import type { Metadata } from "next"
 import { Analytics } from "@vercel/analytics/next"
 import "./globals.css"
 
+
 const zalandoSans = {
   className: "zalando-sans",
   variable: "--font-sans",
@@ -17,11 +18,9 @@ export const metadata: Metadata = {
   description: "a time waiting",
   generator: "v0.app",
   icons: {
-    icon: {
-      url: 'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y=".9em" font-size="100">📚</text></svg>',
-      type: 'image/svg+xml',
+    icon: '/favicon.png' 
+     
     },
-  },
 }
 
 export default function RootLayout({
@@ -32,6 +31,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark" suppressHydrationWarning>
       <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link
