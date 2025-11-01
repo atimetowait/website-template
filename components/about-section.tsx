@@ -53,7 +53,7 @@ export function AboutSection() {
       </div>
 
       <div className="flex items-center gap-4 pt-4">
-        <span className="text-muted-foreground">Seek & Find:</span>
+        <span className="text-muted-foreground">Links:</span>
         <a
           href="https://instagram.com/timescriber"
           target="_blank"

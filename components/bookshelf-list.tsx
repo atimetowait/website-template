@@ -20,7 +20,7 @@ export function BookshelfList({ selectedBook, onSelectBook, width, isDragging, o
         selectedBook && "max-md:hidden",
       )}
     >
-      <div className="px-8 md:px-11 pt-28 md:pt-16 pb-0 max-w-5xl flex flex-col justify-between min-h-full">
+      <div className="px-8 md:px-11 pt-28 md:pt-16 pb-0 max-w-3xl flex flex-col justify-between min-h-full">
         <div>
           <h1 className="text-3x1 font-mono mb-7">Books & Assorted Texts</h1>
 
