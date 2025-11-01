@@ -16,7 +16,7 @@ export function BookReader({ slug }: BookReaderProps) {
         </p>
       )}
       <div className="mb-8">
-        <h1 className="text-4xl font-serif mb-2">{book.title}</h1>
+        <h1 className="text-3xl font-mono mb-2">{book.title}</h1>
         <p className="text-muted-foreground">{book.author}</p>
       </div>
       <div dangerouslySetInnerHTML={{ __html: book.content }} />

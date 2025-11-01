@@ -113,7 +113,7 @@ function Sidebar({ activeTab, onTabChange, width, isDragging, onMouseDown, mobil
         "about",
         "bookshelf",
         "notes",
-        "Is this what you want?",
+        "Is this what you want!?",
         "Don't Blink!",
         "I thought...I could run forever."
     ];
@@ -124,26 +124,6 @@ function Sidebar({ activeTab, onTabChange, width, isDragging, onMouseDown, mobil
         },
         className: "jsx-44a56f9832ad1275" + " " + ((0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$utils$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["cn"])("relative shrink-0 bg-background", "max-md:fixed max-md:inset-y-0 max-md:left-0 max-md:z-40 max-md:shadow-lg", "max-md:transition-transform max-md:duration-150", mobileMenuOpen ? "max-md:translate-x-0" : "max-md:-translate-x-full") || ""),
         children: [
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "jsx-44a56f9832ad1275" + " " + "absolute top-0 left-8 w-8 h-40 z-10 group",
-                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    style: {
-                        background: 'linear-gradient(135deg, oklch(0.42 0.18 25), oklch(0.52 0.18 25) 50%, oklch(0.42 0.18 25))',
-                        border: '1px solid oklch(0.42 0.18 25)',
-                        clipPath: 'polygon(0 0, 100% 0, 100% 100%, 50% calc(100% - 12px), 0 100%)',
-                        boxShadow: '2px 2px 6px rgba(0,0,0,0.3), inset -1px -1px 2px rgba(0,0,0,0.2)'
-                    },
-                    className: "jsx-44a56f9832ad1275" + " " + "w-full h-full relative overflow-hidden"
-                }, void 0, false, {
-                    fileName: "[project]/components/sidebar.tsx",
-                    lineNumber: 30,
-                    columnNumber: 9
-                }, this)
-            }, void 0, false, {
-                fileName: "[project]/components/sidebar.tsx",
-                lineNumber: 29,
-                columnNumber: 7
-            }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                 id: "44a56f9832ad1275",
                 children: "@keyframes sheen{0%{transform:translate(-100%)}to{transform:translate(200%)}}"
@@ -156,12 +136,12 @@ function Sidebar({ activeTab, onTabChange, width, isDragging, onMouseDown, mobil
                         children: tab.charAt(0).toUpperCase() + tab.slice(1)
                     }, tab, false, {
                         fileName: "[project]/components/sidebar.tsx",
-                        lineNumber: 53,
+                        lineNumber: 42,
                         columnNumber: 11
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/components/sidebar.tsx",
-                lineNumber: 51,
+                lineNumber: 40,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$resize$2d$handle$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["ResizeHandle"], {
@@ -169,7 +149,7 @@ function Sidebar({ activeTab, onTabChange, width, isDragging, onMouseDown, mobil
                 isDragging: isDragging
             }, void 0, false, {
                 fileName: "[project]/components/sidebar.tsx",
-                lineNumber: 66,
+                lineNumber: 55,
                 columnNumber: 7
             }, this)
         ]
@@ -222,12 +202,12 @@ function AboutSection() {
         className: "flex flex-col justify-between min-h-full",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "space-y-5",
+                className: "space-y-3",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                className: "text-4xl font-serif mb-2",
+                                className: "text-4x1 font-mono mb-2",
                                 children: "a·time·to·wait"
                             }, void 0, false, {
                                 fileName: "[project]/components/about-section.tsx",
@@ -236,7 +216,13 @@ function AboutSection() {
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 className: "text-muted-foreground text-sm",
-                                children: "/ˈshe/hers/"
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("em", {
+                                    children: "/schē/hɝːz/"
+                                }, void 0, false, {
+                                    fileName: "[project]/components/about-section.tsx",
+                                    lineNumber: 9,
+                                    columnNumber: 54
+                                }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/about-section.tsx",
                                 lineNumber: 9,
@@ -253,7 +239,13 @@ function AboutSection() {
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 className: "text-muted-foreground",
-                                children: "Alice Cadogan"
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("em", {
+                                    children: "Alice Cadogan"
+                                }, void 0, false, {
+                                    fileName: "[project]/components/about-section.tsx",
+                                    lineNumber: 13,
+                                    columnNumber: 46
+                                }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/about-section.tsx",
                                 lineNumber: 13,
@@ -280,7 +272,7 @@ function AboutSection() {
                                                 target: "_blank",
                                                 rel: "noopener noreferrer",
                                                 className: "text-foreground opacity-70 underline decoration-dotted decoration-1 underline-offset-2 transition-all hover:opacity-40 hover:decoration-solid",
-                                                children: "email."
+                                                children: "atimetowait@gmail.com"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/about-section.tsx",
                                                 lineNumber: 20,
@@ -295,14 +287,20 @@ function AboutSection() {
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                         className: "text-foreground",
                                         children: [
-                                            "also known via 'freya langley' — ",
+                                            "also known as 'freya langley' — ",
                                             " ",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                                 href: "https://open.spotify.com/artist/4M8EnFxggAM0jWTedB5Qer?si=HYn9IqzpR_2Pkg1SLAmMiA",
                                                 target: "_blank",
                                                 rel: "noopener noreferrer",
                                                 className: "text-foreground opacity-70 underline decoration-dotted decoration-1 underline-offset-2 transition-all hover:opacity-100 hover:decoration-solid",
-                                                children: "spotify."
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("em", {
+                                                    children: "spotify"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/about-section.tsx",
+                                                    lineNumber: 37,
+                                                    columnNumber: 17
+                                                }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/components/about-section.tsx",
                                                 lineNumber: 31,
@@ -325,58 +323,72 @@ function AboutSection() {
                                 lineNumber: 44,
                                 columnNumber: 14
                             }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("pre", {
                                 children: [
-                                    "—I live as an artist, creative, composer & writer from the DMV. ",
+                                    "Hey there, ",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                         fileName: "[project]/components/about-section.tsx",
                                         lineNumber: 45,
-                                        columnNumber: 76
+                                        columnNumber: 25
                                     }, this),
-                                    "My art spans through the many lenses of my life in, ",
+                                    "                    I'm Alice!",
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                        fileName: "[project]/components/about-section.tsx",
+                                        lineNumber: 45,
+                                        columnNumber: 61
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                        fileName: "[project]/components/about-section.tsx",
+                                        lineNumber: 45,
+                                        columnNumber: 67
+                                    }, this),
+                                    "I live as a creative, composer & writer from the DMV. ",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                         fileName: "[project]/components/about-section.tsx",
                                         lineNumber: 46,
                                         columnNumber: 63
                                     }, this),
-                                    "Chronic illness, self-identity, love, loss...grief. ",
+                                    "My art spans through lenses of my life in, ",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                         fileName: "[project]/components/about-section.tsx",
                                         lineNumber: 47,
-                                        columnNumber: 63
+                                        columnNumber: 54
                                     }, this),
-                                    "As the art exists, it acts as a way for my own healing,",
+                                    "chronic illness, self-identity, love, loss, grief... ",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                         fileName: "[project]/components/about-section.tsx",
-                                        lineNumber: 49,
+                                        lineNumber: 48,
+                                        columnNumber: 64
+                                    }, this),
+                                    " ",
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                        fileName: "[project]/components/about-section.tsx",
+                                        lineNumber: 48,
+                                        columnNumber: 71
+                                    }, this),
+                                    "Songs are published under the alias — 'freya langley'",
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                        fileName: "[project]/components/about-section.tsx",
+                                        lineNumber: 50,
                                         columnNumber: 11
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                         fileName: "[project]/components/about-section.tsx",
-                                        lineNumber: 49,
+                                        lineNumber: 50,
                                         columnNumber: 17
                                     }, this),
-                                    " I'm pleased if you make ",
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("em", {
-                                        children: "home"
-                                    }, void 0, false, {
-                                        fileName: "[project]/components/about-section.tsx",
-                                        lineNumber: 49,
-                                        columnNumber: 48
-                                    }, this),
-                                    " there too. ",
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
-                                        fileName: "[project]/components/about-section.tsx",
-                                        lineNumber: 49,
-                                        columnNumber: 73
-                                    }, this),
-                                    "With love, always ",
+                                    "I'm pleased if you find something you enjoy.",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                         fileName: "[project]/components/about-section.tsx",
                                         lineNumber: 50,
-                                        columnNumber: 29
+                                        columnNumber: 67
                                     }, this),
-                                    "-Alice "
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                        fileName: "[project]/components/about-section.tsx",
+                                        lineNumber: 51,
+                                        columnNumber: 11
+                                    }, this),
+                                    "-xoxo "
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/about-section.tsx",
@@ -394,10 +406,10 @@ function AboutSection() {
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                 className: "text-muted-foreground",
-                                children: "See also:"
+                                children: "Seek & Find:"
                             }, void 0, false, {
                                 fileName: "[project]/components/about-section.tsx",
-                                lineNumber: 55,
+                                lineNumber: 56,
                                 columnNumber: 9
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -408,7 +420,7 @@ function AboutSection() {
                                 children: "Instagram"
                             }, void 0, false, {
                                 fileName: "[project]/components/about-section.tsx",
-                                lineNumber: 56,
+                                lineNumber: 57,
                                 columnNumber: 9
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -419,7 +431,7 @@ function AboutSection() {
                                 children: "Twitter"
                             }, void 0, false, {
                                 fileName: "[project]/components/about-section.tsx",
-                                lineNumber: 64,
+                                lineNumber: 65,
                                 columnNumber: 9
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -430,13 +442,24 @@ function AboutSection() {
                                 children: "Soundcloud"
                             }, void 0, false, {
                                 fileName: "[project]/components/about-section.tsx",
-                                lineNumber: 72,
+                                lineNumber: 73,
                                 columnNumber: 10
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                href: "https://github.com/atimetowait",
+                                target: "_blank",
+                                rel: "noopener noreferrer",
+                                className: "text-foreground opacity-70 underline decoration-dotted decoration-1 underline-offset-2 transition-all hover:opacity-100 hover:decoration-solid",
+                                children: "Github"
+                            }, void 0, false, {
+                                fileName: "[project]/components/about-section.tsx",
+                                lineNumber: 81,
+                                columnNumber: 9
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/about-section.tsx",
-                        lineNumber: 54,
+                        lineNumber: 55,
                         columnNumber: 7
                     }, this)
                 ]
@@ -447,7 +470,7 @@ function AboutSection() {
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$footer$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Footer"], {}, void 0, false, {
                 fileName: "[project]/components/about-section.tsx",
-                lineNumber: 83,
+                lineNumber: 92,
                 columnNumber: 7
             }, this)
         ]
@@ -519,13 +542,13 @@ function NotesList({ selectedNote, onSelectNote, width, isDragging, onMouseDown 
         className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$utils$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["cn"])("relative overflow-y-auto shrink-0 border-r border-border", selectedNote && "max-md:hidden"),
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "px-8 md:px-16 pt-28 md:pt-16 pb-0 max-w-3xl flex flex-col justify-between min-h-full",
+                className: "px-8 md:px-11 pt-28 md:pt-16 pb-0 max-w-3xl flex flex-col justify-between min-h-full",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                className: "text-4xl font-serif mb-8",
-                                children: "Notes"
+                                className: "text-1xl font-mono mb-8",
+                                children: "Nondescript ramblings"
                             }, void 0, false, {
                                 fileName: "[project]/components/notes-list.tsx",
                                 lineNumber: 37,
@@ -533,7 +556,7 @@ function NotesList({ selectedNote, onSelectNote, width, isDragging, onMouseDown 
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 className: "text-muted-foreground mb-8",
-                                children: "Field observations & works-in-progress."
+                                children: "Field observations & works-in-progress—"
                             }, void 0, false, {
                                 fileName: "[project]/components/notes-list.tsx",
                                 lineNumber: 38,
@@ -692,13 +715,13 @@ function BookshelfList({ selectedBook, onSelectBook, width, isDragging, onMouseD
         className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$utils$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["cn"])("relative overflow-y-auto shrink-0 border-r border-border", selectedBook && "max-md:hidden"),
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "px-8 md:px-16 pt-28 md:pt-16 pb-0 max-w-3xl flex flex-col justify-between min-h-full",
+                className: "px-8 md:px-11 pt-28 md:pt-16 pb-0 max-w-5xl flex flex-col justify-between min-h-full",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                className: "text-4xl font-serif mb-8",
-                                children: "Bookshelf"
+                                className: "text-3x1 font-mono mb-7",
+                                children: "Books & Assorted Texts"
                             }, void 0, false, {
                                 fileName: "[project]/components/bookshelf-list.tsx",
                                 lineNumber: 25,
@@ -711,7 +734,7 @@ function BookshelfList({ selectedBook, onSelectBook, width, isDragging, onMouseD
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                                 className: " text-xs uppercase tracking-widest text-muted-foreground mb-4",
-                                                children: "Now reading"
+                                                children: "Favorites:"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/bookshelf-list.tsx",
                                                 lineNumber: 29,
@@ -803,7 +826,7 @@ function BookshelfList({ selectedBook, onSelectBook, width, isDragging, onMouseD
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                                 className: " text-xs uppercase tracking-widest text-muted-foreground mb-4",
-                                                children: "On my shelf"
+                                                children: "To read:"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/bookshelf-list.tsx",
                                                 lineNumber: 66,
@@ -953,7 +976,7 @@ function NoteReader({ slug }) {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                className: "text-4xl font-serif mb-8 text-foreground",
+                className: "text-3xl font-mono mb-8 text-foreground",
                 children: note.title
             }, void 0, false, {
                 fileName: "[project]/components/note-reader.tsx",
@@ -1009,7 +1032,7 @@ function BookReader({ slug }) {
                 className: "mb-8",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                        className: "text-4xl font-serif mb-2",
+                        className: "text-3xl font-mono mb-2",
                         children: book.title
                     }, void 0, false, {
                         fileName: "[project]/components/book-reader.tsx",

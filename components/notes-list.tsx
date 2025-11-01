@@ -32,10 +32,10 @@ export function NotesList({ selectedNote, onSelectNote, width, isDragging, onMou
         selectedNote && "max-md:hidden",
       )}
     >
-      <div className="px-8 md:px-16 pt-28 md:pt-16 pb-0 max-w-3xl flex flex-col justify-between min-h-full">
+      <div className="px-8 md:px-11 pt-28 md:pt-16 pb-0 max-w-3xl flex flex-col justify-between min-h-full">
         <div>
-          <h1 className="text-4xl font-serif mb-8">Notes</h1>
-          <p className="text-muted-foreground mb-8">Field observations & works-in-progress.</p>
+          <h1 className="text-1xl font-mono mb-8">Nondescript ramblings</h1>
+          <p className="text-muted-foreground mb-8">Field observations & works-in-progress—</p>
           <div className="space-y-0">
             {sortedNotes.map((note, index) => (
               <div key={note.slug} className="relative">

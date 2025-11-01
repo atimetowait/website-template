@@ -72,4 +72,7 @@
   .prose blockquote {
     @apply border-l-4 border-border pl-4 italic my-4;
   }
+  .prose pre {
+    @apply bg-muted p-4 rounded-lg overflow-x-auto mb-4 text-xs;
+  }
 }

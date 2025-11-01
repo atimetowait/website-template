@@ -39,7 +39,7 @@ export default function RootLayout({
           rel="stylesheet"
         />
       </head>
-      <body className={`${stixTwoText.variable} ${zalandoSans.variable} font-sans antialiased`}>
+      <body className={`${stixTwoText.variable} ${zalandoSans.variable} font-serif antialiased text-lg`}>
         {children}
         <Analytics />
       </body>

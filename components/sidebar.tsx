@@ -1,7 +1,7 @@
 import { cn } from "@/lib/utils"
 import { ResizeHandle } from "./resize-handle"
 
-type Tab = "about" | "bookshelf" | "notes" | "Is this what you want?" | "Don't Blink!" | "I thought...I could run forever."
+type Tab = "about" | "bookshelf" | "notes" | "Is this what you want!?" | "Don't Blink!" | "I thought...I could run forever."
 
 interface SidebarProps {
   activeTab: Tab
@@ -13,7 +13,7 @@ interface SidebarProps {
 }
 
 export function Sidebar({ activeTab, onTabChange, width, isDragging, onMouseDown, mobileMenuOpen }: SidebarProps) {
-  const tabs: Tab[] = ["about", "bookshelf", "notes", "Is this what you want?", "Don't Blink!", "I thought...I could run forever."]
+  const tabs: Tab[] = ["about", "bookshelf", "notes", "Is this what you want!?", "Don't Blink!", "I thought...I could run forever."]
 
   return (
     <aside
@@ -26,18 +26,7 @@ export function Sidebar({ activeTab, onTabChange, width, isDragging, onMouseDown
       )}
     >
       {/* Ribbon Bookmark */}
-      <div className="absolute top-0 left-8 w-8 h-40 z-10 group">
-        <div
-          className="w-full h-full relative overflow-hidden"
-          style={{
-            background: 'linear-gradient(135deg, oklch(0.42 0.18 25), oklch(0.52 0.18 25) 50%, oklch(0.42 0.18 25))',
-            border: '1px solid oklch(0.42 0.18 25)',
-            clipPath: 'polygon(0 0, 100% 0, 100% 100%, 50% calc(100% - 12px), 0 100%)',
-            boxShadow: '2px 2px 6px rgba(0,0,0,0.3), inset -1px -1px 2px rgba(0,0,0,0.2)',
-          }}
-        >
-        </div>
-      </div>
+ 
       <style jsx>{`
         @keyframes sheen {
           0% {

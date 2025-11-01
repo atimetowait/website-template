@@ -20,13 +20,13 @@ export function BookshelfList({ selectedBook, onSelectBook, width, isDragging, o
         selectedBook && "max-md:hidden",
       )}
     >
-      <div className="px-8 md:px-16 pt-28 md:pt-16 pb-0 max-w-3xl flex flex-col justify-between min-h-full">
+      <div className="px-8 md:px-11 pt-28 md:pt-16 pb-0 max-w-5xl flex flex-col justify-between min-h-full">
         <div>
-          <h1 className="text-4xl font-serif mb-8">Bookshelf</h1>
+          <h1 className="text-3x1 font-mono mb-7">Books & Assorted Texts</h1>
 
           <div className="space-y-8">
           <div>
-            <h2 className=" text-xs uppercase tracking-widest text-muted-foreground mb-4">Now reading</h2>
+            <h2 className=" text-xs uppercase tracking-widest text-muted-foreground mb-4">Favorites:</h2>
             <ol className="space-y-0">
               {books
                 .filter((book) => book.isReading)
@@ -63,7 +63,7 @@ export function BookshelfList({ selectedBook, onSelectBook, width, isDragging, o
           </div>
 
           <div>
-            <h2 className=" text-xs uppercase tracking-widest text-muted-foreground mb-4">On my shelf</h2>
+            <h2 className=" text-xs uppercase tracking-widest text-muted-foreground mb-4">To read:</h2>
             <ol className="space-y-0">
               {books
                 .filter((book) => !book.isReading)
