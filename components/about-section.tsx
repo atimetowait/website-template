@@ -52,15 +52,14 @@ export function AboutSection() {
   
       </div>
 
-      <div className="flex items-center gap-4 pt-4">
+      <div className="flex items-center gap-2 pt-4">
         <span className="text-muted-foreground">Links:</span>
         <a
           href="https://instagram.com/timescriber"
           target="_blank"
           rel="noopener noreferrer"
           className="text-foreground opacity-70 underline decoration-dotted decoration-1 underline-offset-2 transition-all hover:opacity-100 hover:decoration-solid"
-        >
-          Instagram
+        >Instagram
         </a>
         <a
           href="https://x.com/atimetowait"
