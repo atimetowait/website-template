@@ -13,7 +13,7 @@ export function AboutSection() {
         <p className="text-muted-foreground"><em>Alice Cadogan</em></p>
         <ol className="space-y-1 list-decimal list-inside">
           <li className="text-foreground">
-            no martyrs as a day-dreaming friend.
+            no martyrs — a day-dreaming friend
           </li>
           <li className="text-foreground">
             no strangers left behind — {" "}
