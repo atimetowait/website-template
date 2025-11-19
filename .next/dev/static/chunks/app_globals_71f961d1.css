@@ -337,7 +337,14 @@
     display: none !important;
   }
 
+  pre {
+    overflow-wrap: break-word;
+    white-space: pre-wrap;
+    max-width: 100%;
+  }
+
   html, body {
+    max-width: 100%;
     overflow-x: hidden;
   }
 
