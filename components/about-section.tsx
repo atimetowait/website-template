@@ -46,7 +46,7 @@ export function AboutSection() {
         I live as a creative, composer & writer from the DMV. <br />
           My art spans through lenses of my life in, <br />
           chronic illness, self-identity, love, loss, grief... <br /> <br />
-          I've been publishing songs the alias — 'freya langley' for almost ten years now,
+          I've been publishing songs under the alias — 'freya langley' for almost ten years now,
           <br />I'm pleased if you find something you enjoy.<br />
           Write back w/ any thoughts that are in your head.
           <br />-xoxo </pre>
