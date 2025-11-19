@@ -3,8 +3,8 @@
     @apply text-foreground;
   }
 
-  .prose h1 {
-    @apply text-3xl font-serif mb-4 mt-8;
+ .prose h1 {
+    @apply text-3xl font-serif mb-4 mt-8 break-words;
   }
 
   .prose h2 {
