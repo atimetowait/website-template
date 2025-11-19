@@ -8,6 +8,13 @@
   html, body {
     @apply overflow-x-hidden max-w-full;
   }
+
+  h1, h2, h3, h4, h5, h6 {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    hyphens: auto;
+  }
 }
 
 @custom-variant dark (&:is(.dark *));
