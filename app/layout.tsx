@@ -15,7 +15,7 @@ const stixTwoText = {
 
 export const metadata: Metadata = {
   title: "atimetowait",
-  description: "a time waiting",
+  description: "a time to wait",
   generator: "v0.app",
   icons: {
     icon: '/favicon.png' 
