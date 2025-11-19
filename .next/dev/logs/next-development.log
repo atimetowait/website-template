@@ -155,3 +155,58 @@ Parsing ecmascript source code failed
   38 |           href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=STIX+Two+Text:ital,wght@0,400..700;1,400..700&family=Zalando+Sans:ital,wght@0,200..900;1,200..900&display=swap"
 
 Expected '</', got 'string literal ( href=, " href=")'
+[00:08:05.432] Browser ERROR   ./app/layout.tsx:35:30
+Parsing ecmascript source code failed
+  33 |       <head>
+  34 |         <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover />
+> 35 |         <link rel="preconnect" href="https://fonts.googleapis.com" />
+     |                              ^^^^^^^^
+  36 |         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+  37 |         <link
+  38 |           href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=STIX+Two+Text:ital,wght@0,400..700;1,400..700&family=Zalando+Sans:ital,wght@0,200..900;1,200..900&display=swap"
+
+Expected '</', got 'string literal ( href=, " href=")'
+[00:08:05.432] Browser ERROR   ./app/layout.tsx:35:30
+Parsing ecmascript source code failed
+  33 |       <head>
+  34 |         <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover />
+> 35 |         <link rel="preconnect" href="https://fonts.googleapis.com" />
+     |                              ^^^^^^^^
+  36 |         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+  37 |         <link
+  38 |           href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=STIX+Two+Text:ital,wght@0,400..700;1,400..700&family=Zalando+Sans:ital,wght@0,200..900;1,200..900&display=swap"
+
+Expected '</', got 'string literal ( href=, " href=")'
+[00:08:05.432] Browser ERROR   ./app/layout.tsx:35:30
+Parsing ecmascript source code failed
+  33 |       <head>
+  34 |         <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover />
+> 35 |         <link rel="preconnect" href="https://fonts.googleapis.com" />
+     |                              ^^^^^^^^
+  36 |         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+  37 |         <link
+  38 |           href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=STIX+Two+Text:ital,wght@0,400..700;1,400..700&family=Zalando+Sans:ital,wght@0,200..900;1,200..900&display=swap"
+
+Expected '</', got 'string literal ( href=, " href=")'
+[00:08:05.432] Browser ERROR   ./app/layout.tsx:35:30
+Parsing ecmascript source code failed
+  33 |       <head>
+  34 |         <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover />
+> 35 |         <link rel="preconnect" href="https://fonts.googleapis.com" />
+     |                              ^^^^^^^^
+  36 |         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+  37 |         <link
+  38 |           href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=STIX+Two+Text:ital,wght@0,400..700;1,400..700&family=Zalando+Sans:ital,wght@0,200..900;1,200..900&display=swap"
+
+Expected '</', got 'string literal ( href=, " href=")'
+[00:08:05.432] Browser ERROR   ./app/layout.tsx:35:30
+Parsing ecmascript source code failed
+  33 |       <head>
+  34 |         <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover />
+> 35 |         <link rel="preconnect" href="https://fonts.googleapis.com" />
+     |                              ^^^^^^^^
+  36 |         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+  37 |         <link
+  38 |           href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=STIX+Two+Text:ital,wght@0,400..700;1,400..700&family=Zalando+Sans:ital,wght@0,200..900;1,200..900&display=swap"
+
+Expected '</', got 'string literal ( href=, " href=")'
