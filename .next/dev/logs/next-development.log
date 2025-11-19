@@ -1,5 +1,157 @@
-[00:00:02.569] Server  LOG      ✓ Ready in 1455ms
-[00:00:08.908] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:09.036] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:00:09.036] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:00:09.036] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1762302417798}
+[00:00:01.350] Server  LOG      ✓ Ready in 865ms
+[00:00:03.158] Server  ERROR    ⨯ ./components/about-section.tsx:51:29
+Parsing ecmascript source code failed
+  49 |           I've been publishing songs the alias — 'freya langley' for almost ten years now, <br>
+  50 |           <br /><br />I'm pleased if you find something you enjoy.<br />
+> 51 |           <br />-xoxo </pre>
+     |                             ^
+> 52 |   
+     | ^^
+> 53 |       </div>
+     | ^^^^^^^
+  54 |
+  55 |       <div className="flex items-center gap-3 pt-4">
+  56 |         <span className="text-muted-foreground">Links:</span>
+
+Expected '</', got 'jsx text (
+  
+      )'
+
+Import traces:
+  Client Component Browser:
+    ./components/about-section.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/about-section.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+
+[00:00:04.336] Browser ERROR   uncaughtError: Error: ./components/about-section.tsx:51:29
+Parsing ecmascript source code failed
+  49 |           I've been publishing songs the alias — 'freya langley' for almost ten years now, <br>
+  50 |           <br /><br />I'm pleased if you find something you enjoy.<br />
+> 51 |           <br />-xoxo </pre>
+     |                             ^
+> 52 |   
+     | ^^
+> 53 |       </div>
+     | ^^^^^^^
+  54 |
+  55 |       <div className="flex items-center gap-3 pt-4">
+  56 |         <span className="text-muted-foreground">Links:</span>
+
+Expected '</', got 'jsx text (
+  
+      )'
+
+Import traces:
+  Client Component Browser:
+    ./components/about-section.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/about-section.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+
+[00:00:04.521] Browser ERROR   ./components/about-section.tsx:51:29
+Parsing ecmascript source code failed
+  49 |           I've been publishing songs the alias — 'freya langley' for almost ten years now, <br>
+  50 |           <br /><br />I'm pleased if you find something you enjoy.<br />
+> 51 |           <br />-xoxo </pre>
+     |                             ^
+> 52 |   
+     | ^^
+> 53 |       </div>
+     | ^^^^^^^
+  54 |
+  55 |       <div className="flex items-center gap-3 pt-4">
+  56 |         <span className="text-muted-foreground">Links:</span>
+
+Expected '</', got 'jsx text (
+  
+      )'
+
+Import traces:
+  Client Component Browser:
+    ./components/about-section.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/about-section.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:00:04.521] Browser ERROR   ./components/about-section.tsx:51:29
+Parsing ecmascript source code failed
+  49 |           I've been publishing songs the alias — 'freya langley' for almost ten years now, <br>
+  50 |           <br /><br />I'm pleased if you find something you enjoy.<br />
+> 51 |           <br />-xoxo </pre>
+     |                             ^
+> 52 |   
+     | ^^
+> 53 |       </div>
+     | ^^^^^^^
+  54 |
+  55 |       <div className="flex items-center gap-3 pt-4">
+  56 |         <span className="text-muted-foreground">Links:</span>
+
+Expected '</', got 'jsx text (
+  
+      )'
+
+Import traces:
+  Client Component Browser:
+    ./components/about-section.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/about-section.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:00:19.776] Server  LOG      ✓ Compiled in 42ms
+[00:00:20.373] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:20.544] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:20.544] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:20.544] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763529783193}
+[00:00:23.324] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:23.481] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:23.481] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:23.481] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763529786129}
+[00:00:44.107] Server  LOG      ✓ Compiled in 49ms
+[00:00:45.533] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:45.710] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:45.710] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:45.711] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763529808355}
+[00:00:58.273] Server  LOG      ✓ Compiled in 39ms
+[00:01:48.724] Server  LOG      ✓ Compiled in 36ms
+[00:02:05.827] Server  LOG      ✓ Compiled in 34ms
+[00:07:02.548] Server  LOG      ✓ Compiled in 87ms
+[00:07:06.117] Browser ERROR   ./app/layout.tsx:35:30
+Parsing ecmascript source code failed
+  33 |       <head>
+  34 |         <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover />
+> 35 |         <link rel="preconnect" href="https://fonts.googleapis.com" />
+     |                              ^^^^^^^^
+  36 |         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+  37 |         <link
+  38 |           href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=STIX+Two+Text:ital,wght@0,400..700;1,400..700&family=Zalando+Sans:ital,wght@0,200..900;1,200..900&display=swap"
+
+Expected '</', got 'string literal ( href=, " href=")'
+[00:07:26.830] Browser ERROR   ./app/layout.tsx:35:30
+Parsing ecmascript source code failed
+  33 |       <head>
+  34 |         <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover />
+> 35 |         <link rel="preconnect" href="https://fonts.googleapis.com" />
+     |                              ^^^^^^^^
+  36 |         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+  37 |         <link
+  38 |           href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=STIX+Two+Text:ital,wght@0,400..700;1,400..700&family=Zalando+Sans:ital,wght@0,200..900;1,200..900&display=swap"
+
+Expected '</', got 'string literal ( href=, " href=")'

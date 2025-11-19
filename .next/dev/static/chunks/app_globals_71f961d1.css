@@ -337,6 +337,10 @@
     display: none !important;
   }
 
+  html, body {
+    overflow-x: hidden;
+  }
+
   * {
     border-color: var(--border);
     outline-color: var(--ring);

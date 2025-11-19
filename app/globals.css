@@ -1,5 +1,10 @@
 @import "tailwindcss";
 @import "tw-animate-css";
+@layer base {
+  html, body {
+    @apply overflow-x-hidden;
+  }
+}
 
 @custom-variant dark (&:is(.dark *));
 

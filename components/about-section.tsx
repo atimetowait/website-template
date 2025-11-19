@@ -46,8 +46,9 @@ export function AboutSection() {
         I live as a creative, composer & writer from the DMV. <br />
           My art spans through lenses of my life in, <br />
           chronic illness, self-identity, love, loss, grief... <br /> <br />
-          Songs are published under the alias — 'freya langley'
-          <br /><br />I'm pleased if you find something you enjoy.<br />
+          I've been publishing songs the alias — 'freya langley' for almost ten years now,
+          <br />I'm pleased if you find something you enjoy.<br />
+          Write back w/ any thoughts that are in your head.
           <br />-xoxo </pre>
   
       </div>
@@ -55,7 +56,7 @@ export function AboutSection() {
       <div className="flex items-center gap-3 pt-4">
         <span className="text-muted-foreground">Links:</span>
         <a
-          href="https://instagram.com/timescriber"
+          href="https://instagram.com/timescribing"
           target="_blank"
           rel="noopener noreferrer"
           className="text-foreground opacity-70 underline decoration-dotted decoration-1 underline-offset-2 transition-all hover:opacity-100 hover:decoration-solid"
