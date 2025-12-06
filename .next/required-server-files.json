@@ -149,7 +149,6 @@
       "serverSourceMaps": false,
       "linkNoTouchStart": false,
       "caseSensitiveRoutes": false,
-      "clientSegmentCache": true,
       "dynamicOnHover": false,
       "preloadEntriesOnStart": true,
       "clientRouterFilter": true,

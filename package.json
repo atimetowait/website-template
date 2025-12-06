@@ -7,7 +7,7 @@
   },
   "scripts": {
     "generate-content": "node scripts/generate-content.mjs",
-    "build": "npm run generate-content && next build",
+    "build": "npm run generate-content && npx next build",
     "dev": "npm run generate-content && next dev",
     "lint": "eslint .",
     "start": "next start"
