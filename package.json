@@ -2,6 +2,9 @@
   "name": "atimetowait",
   "version": "1.0.0",
   "private": false,
+  "engines": {
+    "node": ">=20.0.0"
+  },
   "scripts": {
     "generate-content": "node scripts/generate-content.mjs",
     "build": "npm run generate-content && next build",
