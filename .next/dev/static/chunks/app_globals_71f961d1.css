@@ -600,6 +600,10 @@
     margin-bottom: calc(var(--spacing) * 8);
   }
 
+  .block {
+    display: block;
+  }
+
   .flex {
     display: flex;
   }

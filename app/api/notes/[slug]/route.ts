@@ -10,11 +10,12 @@ export async function GET(
 
   const mdx = getNoteBySlug(slug)
   if (mdx) {
+    const contentHtml = markdownToHtml(mdx.content)
     return NextResponse.json({
       slug: mdx.slug,
       title: mdx.title,
       date: mdx.date,
-      contentHtml: markdownToHtml(mdx.content),
+      contentHtml,
     })
   }
 
