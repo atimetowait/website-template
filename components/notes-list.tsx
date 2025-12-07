@@ -1,3 +1,4 @@
+import Link from "next/link"
 import { notes } from "@/content/notes"
 import { cn } from "@/lib/utils"
 import { Footer } from "./footer"
@@ -39,16 +40,17 @@ export function NotesList({ selectedNote, onSelectNote, width, isDragging, onMou
           <div className="space-y-0">
             {sortedNotes.map((note, index) => (
               <div key={note.slug} className="relative">
-                <button
+                <Link
+                  href={`/notes/${note.slug}`}
                   onClick={() => onSelectNote(note.slug)}
-                  className="w-full text-left space-y-1.5 py-3 transition-colors group"
+                  className="w-full text-left space-y-1.5 py-3 transition-colors group block"
                 >
                   <div className="flex items-baseline gap-2 min-w-0">
                     <h2 className="text-base font-medium text-foreground break-words flex-1 min-w-0">{note.title}</h2>
                     <span className="text-muted-foreground text-sm transition-transform duration-200 ease-[cubic-bezier(0.34,1.56,0.64,1)] group-hover:translate-x-0.5 group-hover:-translate-y-0.5 shrink-0">↗</span>
                   </div>
                   <p className="text-xs text-muted-foreground font-mono uppercase tracking-widest">{note.date}</p>
-                </button>
+                </Link>
                 {index < sortedNotes.length - 1 && (
                   <div className="h-px bg-border my-4" />
                 )}

@@ -1,6 +1,7 @@
 "use client"
 
 import { useState } from "react"
+import { useRouter } from "next/navigation"
 import { Menu, X } from "lucide-react"
 import { Sidebar } from "@/components/sidebar"
 import { AboutSection } from "@/components/about-section"
@@ -13,6 +14,7 @@ import { ContentPanel } from "@/components/content-panel"
 type Tab = "about" | "bookshelf" | "notes"
 
 export default function PersonalWebsite() {
+  const router = useRouter()
   const [activeTab, setActiveTab] = useState<Tab>("about")
   const [selectedNote, setSelectedNote] = useState<string | null>(null)
   const [selectedBook, setSelectedBook] = useState<string | null>(null)
@@ -41,6 +43,12 @@ const bookList = {
   const handleTabChange = (tab: Tab) => {
     setActiveTab(tab)
     setMobileMenuOpen(false)
+    // Navigate to dedicated routes for notes and bookshelf
+    if (tab === "notes") {
+      router.push("/notes")
+    } else if (tab === "bookshelf") {
+      router.push("/bookshelf")
+    }
   }
 
   return (
@@ -66,7 +74,7 @@ const bookList = {
         <>
           <NotesList
             selectedNote={selectedNote}
-            onSelectNote={setSelectedNote}
+            onSelectNote={(slug) => router.push(`/notes/${slug}`)}
             width={notesList.width}
             isDragging={notesList.isDragging}
             onMouseDown={notesList.handleMouseDown}
@@ -81,7 +89,7 @@ const bookList = {
         <>
           <BookshelfList
             selectedBook={selectedBook}
-            onSelectBook={setSelectedBook}
+            onSelectBook={(slug) => router.push(`/bookshelf/${slug}`)}
             width={bookList.width}
             isDragging={bookList.isDragging}
             onMouseDown={bookList.handleMouseDown}

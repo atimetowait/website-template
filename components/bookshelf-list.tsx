@@ -1,3 +1,4 @@
+import Link from "next/link"
 import { books } from "@/content/books"
 import { cn } from "@/lib/utils"
 import { Footer } from "./footer"
@@ -32,29 +33,30 @@ export function BookshelfList({ selectedBook, onSelectBook, width, isDragging, o
                 .map((book, index, filteredBooks) => (
                   <li key={book.slug} className="text-foreground">
                     <div className="inline-block align-top" style={{ width: "calc(100% - 1.5em)" }}>
-                      <button
-                        onClick={() => {
-                          if (book.hasNotes) {
-                            onSelectBook(book.slug)
-                          }
-                        }}
-                        disabled={!book.hasNotes}
-                        className={cn(
-                          "w-full text-left space-y-1.5 py-3 transition-colors group",
-                          book.hasNotes && "cursor-pointer",
-                          !book.hasNotes && "cursor-default",
-                        )}
-                      >
-                        <div className="flex items-baseline gap-2">
-                          <div className="text-base font-medium text-foreground">{book.title}</div>
-                          {book.hasNotes && (
+                      {book.hasNotes ? (
+                        <Link
+                          href={`/bookshelf/${book.slug}`}
+                          onClick={() => onSelectBook(book.slug)}
+                          className="w-full text-left space-y-1.5 py-3 transition-colors group block cursor-pointer"
+                        >
+                          <div className="flex items-baseline gap-2">
+                            <div className="text-base font-medium text-foreground">{book.title}</div>
                             <span className="text-muted-foreground text-sm transition-transform duration-200 ease-[cubic-bezier(0.34,1.56,0.64,1)] group-hover:translate-x-0.5 group-hover:-translate-y-0.5">↗</span>
-                          )}
+                          </div>
+                          <div className="text-sm text-muted-foreground">
+                            {book.author}, {book.year}
+                          </div>
+                        </Link>
+                      ) : (
+                        <div className="w-full text-left space-y-1.5 py-3 cursor-default">
+                          <div className="flex items-baseline gap-2">
+                            <div className="text-base font-medium text-foreground">{book.title}</div>
+                          </div>
+                          <div className="text-sm text-muted-foreground">
+                            {book.author}, {book.year}
+                          </div>
                         </div>
-                        <div className="text-sm text-muted-foreground">
-                          {book.author}, {book.year}
-                        </div>
-                      </button>
+                      )}
                     </div>
                   </li>
                 ))}
@@ -69,29 +71,30 @@ export function BookshelfList({ selectedBook, onSelectBook, width, isDragging, o
                 .map((book, index, filteredBooks) => (
                   <li key={book.slug} className="text-foreground">
                     <div className="inline-block align-top">
-                      <button
-                        onClick={() => {
-                          if (book.hasNotes) {
-                            onSelectBook(book.slug)
-                          }
-                        }}
-                        disabled={!book.hasNotes}
-                        className={cn(
-                          "w-full text-left space-y-1.5 py-3 transition-colors group",
-                          book.hasNotes && "cursor-pointer",
-                          !book.hasNotes && "cursor-default",
-                        )}
-                      >
-                        <div className="flex items-baseline gap-2">
-                          <div className={cn("text-base font-medium text-foreground", book.hasNotes && "group-hover:underline")}>{book.title}</div>
-                          {book.hasNotes && (
+                      {book.hasNotes ? (
+                        <Link
+                          href={`/bookshelf/${book.slug}`}
+                          onClick={() => onSelectBook(book.slug)}
+                          className="w-full text-left space-y-1.5 py-3 transition-colors group block cursor-pointer"
+                        >
+                          <div className="flex items-baseline gap-2">
+                            <div className="text-base font-medium text-foreground group-hover:underline">{book.title}</div>
                             <span className="text-muted-foreground text-sm transition-transform duration-200 ease-[cubic-bezier(0.34,1.56,0.64,1)] group-hover:translate-x-0.5 group-hover:-translate-y-0.5">↗</span>
-                          )}
+                          </div>
+                          <div className="text-sm text-muted-foreground">
+                            {book.author}, {book.year}
+                          </div>
+                        </Link>
+                      ) : (
+                        <div className="w-full text-left space-y-1.5 py-3 cursor-default">
+                          <div className="flex items-baseline gap-2">
+                            <div className="text-base font-medium text-foreground">{book.title}</div>
+                          </div>
+                          <div className="text-sm text-muted-foreground">
+                            {book.author}, {book.year}
+                          </div>
                         </div>
-                        <div className="text-sm text-muted-foreground">
-                          {book.author}, {book.year}
-                        </div>
-                      </button>
+                      )}
                     </div>
                   </li>
                 ))}
