@@ -26,7 +26,14 @@ const metadata = {
     description: "a time to wait",
     generator: "v0.app",
     icons: {
-        icon: '/favicon.png'
+        icon: [
+            {
+                url: '/favicon.png',
+                type: 'image/png'
+            }
+        ],
+        shortcut: '/favicon.png',
+        apple: '/favicon.png'
     }
 };
 function RootLayout({ children }) {
@@ -42,7 +49,7 @@ function RootLayout({ children }) {
                         content: "width=device-width, initial-scale=1.0, viewport-fit=cover"
                     }, void 0, false, {
                         fileName: "[project]/app/layout.tsx",
-                        lineNumber: 34,
+                        lineNumber: 37,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("link", {
@@ -50,7 +57,7 @@ function RootLayout({ children }) {
                         href: "https://fonts.googleapis.com"
                     }, void 0, false, {
                         fileName: "[project]/app/layout.tsx",
-                        lineNumber: 35,
+                        lineNumber: 38,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("link", {
@@ -59,7 +66,7 @@ function RootLayout({ children }) {
                         crossOrigin: "anonymous"
                     }, void 0, false, {
                         fileName: "[project]/app/layout.tsx",
-                        lineNumber: 36,
+                        lineNumber: 39,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("link", {
@@ -67,13 +74,13 @@ function RootLayout({ children }) {
                         rel: "stylesheet"
                     }, void 0, false, {
                         fileName: "[project]/app/layout.tsx",
-                        lineNumber: 37,
+                        lineNumber: 40,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/layout.tsx",
-                lineNumber: 33,
+                lineNumber: 36,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("body", {
@@ -82,19 +89,19 @@ function RootLayout({ children }) {
                     children,
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$vercel$2f$analytics$2f$dist$2f$next$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Analytics"], {}, void 0, false, {
                         fileName: "[project]/app/layout.tsx",
-                        lineNumber: 44,
+                        lineNumber: 47,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/layout.tsx",
-                lineNumber: 42,
+                lineNumber: 45,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/layout.tsx",
-        lineNumber: 32,
+        lineNumber: 35,
         columnNumber: 5
     }, this);
 }
