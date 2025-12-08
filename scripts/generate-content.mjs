@@ -14,6 +14,33 @@ function markdownToHtml(markdown) {
   return marked.parse(markdown)
 }
 
+// Generate about content
+function generateAbout() {
+  const aboutPath = path.join(rootDir, "content/about.mdx")
+  if (!fs.existsSync(aboutPath)) return
+
+  const fileContents = fs.readFileSync(aboutPath, "utf8")
+  const { data, content } = matter(fileContents)
+
+  const html = markdownToHtml(content)
+
+  const about = {
+    title: data.title || "About",
+    content: html,
+  }
+
+  const output = `export interface About {
+  title: string
+  content: string
+}
+
+export const about: About = ${JSON.stringify(about, null, 2)}
+`
+
+  fs.writeFileSync(path.join(rootDir, "content/about.tsx"), output)
+  console.log("✓ Generated about content")
+}
+
 // Generate notes content
 function generateNotes() {
   const notesDir = path.join(rootDir, "content/notes")
@@ -100,5 +127,6 @@ export const books: Book[] = ${JSON.stringify(books, null, 2)}
 }
 
 // Run generators
+generateAbout()
 generateNotes()
 generateBooks()
