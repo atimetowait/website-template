@@ -1,5 +1,4 @@
 {
-  "/bookshelf/page": "app/bookshelf/page.js",
   "/notes/[slug]/page": "app/notes/[slug]/page.js",
   "/notes/page": "app/notes/page.js",
   "/page": "app/page.js"
