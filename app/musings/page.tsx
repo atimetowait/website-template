@@ -3,17 +3,17 @@
 import { useState } from "react"
 import { useRouter } from "next/navigation"
 import { Menu, X } from "lucide-react"
-import { BookshelfList } from "@/components/bookshelf-list"
+import { NotesList } from "@/components/notes-list"
 import { Sidebar } from "@/components/sidebar"
 
 const sidebarWidth = 320
 
-export default function BookshelfPage() {
+export default function MusingsPage() {
   const router = useRouter()
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
-  const handleSelectBook = (slug: string) => {
-    router.push(`/bookshelf/${slug}`)
+  const handleSelectNote = (slug: string) => {
+    router.push(`/musings/${slug}`)
   }
 
   return (
@@ -28,7 +28,7 @@ export default function BookshelfPage() {
       </button>
 
       <Sidebar
-        activeTab="bookshelf"
+        activeTab="musings"
         onTabChange={(tab) => {
           if (tab === "formalities") router.push("/")
           else if (tab === "bookshelf") router.push("/bookshelf")
@@ -40,9 +40,9 @@ export default function BookshelfPage() {
         mobileMenuOpen={mobileMenuOpen}
       />
 
-      <BookshelfList
-        selectedBook={null}
-        onSelectBook={handleSelectBook}
+      <NotesList
+        selectedNote={null}
+        onSelectNote={handleSelectNote}
         width={600}
         isDragging={false}
         onMouseDown={() => {}}
@@ -57,3 +57,5 @@ export default function BookshelfPage() {
     </div>
   )
 }
+
+

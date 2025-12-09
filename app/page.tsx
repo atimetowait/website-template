@@ -11,11 +11,11 @@ import { NoteReader } from "@/components/note-reader"
 import { BookReader } from "@/components/book-reader"
 import { ContentPanel } from "@/components/content-panel"
 
-type Tab = "about" | "bookshelf" | "notes"
+type Tab = "formalities" | "bookshelf" | "musings"
 
 export default function PersonalWebsite() {
   const router = useRouter()
-  const [activeTab, setActiveTab] = useState<Tab>("about")
+  const [activeTab, setActiveTab] = useState<Tab>("formalities")
   const [selectedNote, setSelectedNote] = useState<string | null>(null)
   const [selectedBook, setSelectedBook] = useState<string | null>(null)
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
@@ -43,9 +43,11 @@ const bookList = {
   const handleTabChange = (tab: Tab) => {
     setActiveTab(tab)
     setMobileMenuOpen(false)
-    // Navigate to dedicated routes for notes and bookshelf
-    if (tab === "notes") {
-      router.push("/notes")
+    // Navigate to dedicated routes for musings and bookshelf
+    if (tab === "formalities") {
+      router.push("/")
+    } else if (tab === "musings") {
+      router.push("/musings")
     } else if (tab === "bookshelf") {
       router.push("/bookshelf")
     }
@@ -70,11 +72,11 @@ const bookList = {
         mobileMenuOpen={mobileMenuOpen}
       />
 
-      {activeTab === "notes" ? (
+      {activeTab === "musings" ? (
         <>
           <NotesList
             selectedNote={selectedNote}
-            onSelectNote={(slug) => router.push(`/notes/${slug}`)}
+            onSelectNote={(slug) => router.push(`/musings/${slug}`)}
             width={notesList.width}
             isDragging={notesList.isDragging}
             onMouseDown={notesList.handleMouseDown}

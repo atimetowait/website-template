@@ -35,13 +35,13 @@ export function NotesList({ selectedNote, onSelectNote, width, isDragging, onMou
     >
       <div className="px-8 md:px-11 pt-28 md:pt-16 pb-0 max-w-3xl flex flex-col justify-between min-h-full">
         <div>
-          <h1 className="text-3x1 font-mono mb-7">Nondescript ramblings</h1>
+          <h1 className="text-3x1 font-mono mb-7">Musings</h1>
           <p className="text-muted-foreground mb-8">Field observations & works-in-progress—</p>
           <div className="space-y-0">
             {sortedNotes.map((note, index) => (
               <div key={note.slug} className="relative">
                 <Link
-                  href={`/notes/${note.slug}`}
+                  href={`/musings/${note.slug}`}
                   onClick={() => onSelectNote(note.slug)}
                   className="w-full text-left space-y-1.5 py-3 transition-colors group block"
                 >
