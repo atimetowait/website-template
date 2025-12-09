@@ -12,7 +12,7 @@ interface SidebarProps {
 }
 
 export function Sidebar({ activeTab, onTabChange, width, isDragging, onMouseDown, mobileMenuOpen }: SidebarProps) {
-  const tabs: Tab[] = ["formalities", "bookshelf", "musings"]
+  const tabs: Tab[] = ["formalities", "musings", "bookshelf"]
 
   return (
     <aside
