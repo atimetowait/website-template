@@ -13,34 +13,35 @@ export async function POST(req: Request) {
 
     const trimmed = message.trim()
 
-    const rootDir = process.cwd()
-    const dataDir = path.join(rootDir, "data")
-    const filePath = path.join(dataDir, "whats-your-name-responses.jsonl")
+    // 1) Best-effort file write
+    try {
+      const rootDir = process.cwd()
+      const dataDir = path.join(rootDir, "data")
+      const filePath = path.join(dataDir, "whats-your-name-responses.jsonl")
 
-    if (!fs.existsSync(dataDir)) {
-      fs.mkdirSync(dataDir, { recursive: true })
+      if (!fs.existsSync(dataDir)) {
+        fs.mkdirSync(dataDir, { recursive: true })
+      }
+
+      const entry = {
+        message: trimmed,
+        createdAt: new Date().toISOString(),
+      }
+
+      fs.appendFileSync(filePath, JSON.stringify(entry) + "\n", "utf8")
+    } catch (fileError) {
+      console.error("Error writing what's-your-name response file (continuing):", fileError)
     }
 
-    const entry = {
-      message: trimmed,
-      createdAt: new Date().toISOString(),
-    }
-
-    fs.appendFileSync(filePath, JSON.stringify(entry) + "\n", "utf8")
-
-    // Try to send an email if SMTP is configured, but don't fail the request if it isn't.
+    // 2) Best-effort email (your existing try/catch around nodemailer)
     const { SMTP_HOST, SMTP_PORT, SMTP_USER, SMTP_PASS, SMTP_TO, SMTP_FROM } = process.env
-
     if (SMTP_HOST && SMTP_USER && SMTP_PASS) {
       try {
         const transporter = nodemailer.createTransport({
           host: SMTP_HOST,
           port: Number(SMTP_PORT) || 587,
           secure: false,
-          auth: {
-            user: SMTP_USER,
-            pass: SMTP_PASS,
-          },
+          auth: { user: SMTP_USER, pass: SMTP_PASS },
         })
 
         const toAddress = SMTP_TO || "atimetowait@gmail.com"
@@ -58,18 +59,18 @@ export async function POST(req: Request) {
           from: fromAddress,
           to: toAddress,
           subject: "New response: Who are you when no one is watching?",
-          text: `${trimmed}\n\nSubmitted at: ${entry.createdAt}`,
-          html: `<p>${safeHtml}</p><p><small>Submitted at: ${entry.createdAt}</small></p>`,
+          text: `${trimmed}\n\nSubmitted at: ${new Date().toISOString()}`,
+          html: `<p>${safeHtml}</p><p><small>Submitted at: ${new Date().toISOString()}</small></p>`,
         })
       } catch (emailError) {
         console.error("Error sending what's-your-name email (continuing anyway):", emailError)
       }
     }
 
+    // 3) If we got here, treat it as success for the UI
     return NextResponse.json({ ok: true })
   } catch (error) {
-    console.error("Error saving/sending what's your name response:", error)
+    console.error("Error saving/sending what's-your-name response:", error)
     return NextResponse.json({ error: "Internal Server Error" }, { status: 500 })
   }
 }
-
