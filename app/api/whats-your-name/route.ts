@@ -28,34 +28,43 @@ export async function POST(req: Request) {
 
     fs.appendFileSync(filePath, JSON.stringify(entry) + "\n", "utf8")
 
-    const transporter = nodemailer.createTransport({
-      host: process.env.SMTP_HOST,
-      port: Number(process.env.SMTP_PORT) || 587,
-      secure: false,
-      auth: {
-        user: process.env.SMTP_USER,
-        pass: process.env.SMTP_PASS,
-      },
-    })
+    // Try to send an email if SMTP is configured, but don't fail the request if it isn't.
+    const { SMTP_HOST, SMTP_PORT, SMTP_USER, SMTP_PASS, SMTP_TO, SMTP_FROM } = process.env
 
-    const toAddress = process.env.SMTP_TO || "atimetowait@gmail.com"
-    const fromAddress = process.env.SMTP_FROM || process.env.SMTP_USER || "no-reply@localhost"
+    if (SMTP_HOST && SMTP_USER && SMTP_PASS) {
+      try {
+        const transporter = nodemailer.createTransport({
+          host: SMTP_HOST,
+          port: Number(SMTP_PORT) || 587,
+          secure: false,
+          auth: {
+            user: SMTP_USER,
+            pass: SMTP_PASS,
+          },
+        })
 
-    const safeHtml = trimmed
-      .replace(/&/g, "&amp;")
-      .replace(/</g, "&lt;")
-      .replace(/>/g, "&gt;")
-      .replace(/"/g, "&quot;")
-      .replace(/'/g, "&#039;")
-      .replace(/\n/g, "<br />")
+        const toAddress = SMTP_TO || "atimetowait@gmail.com"
+        const fromAddress = SMTP_FROM || SMTP_USER || "no-reply@localhost"
 
-    await transporter.sendMail({
-      from: fromAddress,
-      to: toAddress,
-      subject: "New response: Who are you when no one is watching?",
-      text: `${trimmed}\n\nSubmitted at: ${entry.createdAt}`,
-      html: `<p>${safeHtml}</p><p><small>Submitted at: ${entry.createdAt}</small></p>`,
-    })
+        const safeHtml = trimmed
+          .replace(/&/g, "&amp;")
+          .replace(/</g, "&lt;")
+          .replace(/>/g, "&gt;")
+          .replace(/"/g, "&quot;")
+          .replace(/'/g, "&#039;")
+          .replace(/\n/g, "<br />")
+
+        await transporter.sendMail({
+          from: fromAddress,
+          to: toAddress,
+          subject: "New response: Who are you when no one is watching?",
+          text: `${trimmed}\n\nSubmitted at: ${entry.createdAt}`,
+          html: `<p>${safeHtml}</p><p><small>Submitted at: ${entry.createdAt}</small></p>`,
+        })
+      } catch (emailError) {
+        console.error("Error sending what's-your-name email (continuing anyway):", emailError)
+      }
+    }
 
     return NextResponse.json({ ok: true })
   } catch (error) {
