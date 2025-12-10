@@ -33,6 +33,7 @@ export default function MusingsPage() {
           if (tab === "formalities") router.push("/")
           else if (tab === "bookshelf") router.push("/bookshelf")
           else if (tab === "musings") router.push("/musings")
+          else if (tab === "whats-your-name") router.push("/whats-your-name")
         }}
         width={sidebarWidth}
         isDragging={false}

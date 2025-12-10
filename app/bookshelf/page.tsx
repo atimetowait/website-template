@@ -32,6 +32,7 @@ export default function BookshelfPage() {
         onTabChange={(tab) => {
           if (tab === "formalities") router.push("/")
           else if (tab === "bookshelf") router.push("/bookshelf")
+          else if (tab === "whats-your-name") router.push("/whats-your-name")
           else if (tab === "musings") router.push("/musings")
         }}
         width={sidebarWidth}

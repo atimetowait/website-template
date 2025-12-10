@@ -11,7 +11,7 @@ import { NoteReader } from "@/components/note-reader"
 import { BookReader } from "@/components/book-reader"
 import { ContentPanel } from "@/components/content-panel"
 
-type Tab = "formalities" | "bookshelf" | "musings"
+type Tab = "formalities" | "musings" | "whats-your-name" | "bookshelf"
 
 export default function PersonalWebsite() {
   const router = useRouter()
@@ -43,11 +43,13 @@ const bookList = {
   const handleTabChange = (tab: Tab) => {
     setActiveTab(tab)
     setMobileMenuOpen(false)
-    // Navigate to dedicated routes for musings and bookshelf
+    // Navigate to dedicated routes for tabs
     if (tab === "formalities") {
       router.push("/")
     } else if (tab === "musings") {
       router.push("/musings")
+    } else if (tab === "whats-your-name") {
+      router.push("/whats-your-name")
     } else if (tab === "bookshelf") {
       router.push("/bookshelf")
     }

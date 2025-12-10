@@ -41,6 +41,33 @@ export const about: About = ${JSON.stringify(about, null, 2)}
   console.log("✓ Generated about content")
 }
 
+// Generate \"what's your name?\" content
+function generateWhatsYourName() {
+  const pagePath = path.join(rootDir, "content/whats-your-name.mdx")
+  if (!fs.existsSync(pagePath)) return
+
+  const fileContents = fs.readFileSync(pagePath, "utf8")
+  const { data, content } = matter(fileContents)
+
+  const html = markdownToHtml(content)
+
+  const page = {
+    title: data.title || "What's your name?",
+    content: html,
+  }
+
+  const output = `export interface WhatsYourName {
+  title: string
+  content: string
+}
+
+export const whatsYourName: WhatsYourName = ${JSON.stringify(page, null, 2)}
+`
+
+  fs.writeFileSync(path.join(rootDir, "content/whats-your-name.tsx"), output)
+  console.log("✓ Generated what's your name? content")
+}
+
 // Generate notes content
 function generateNotes() {
   const notesDir = path.join(rootDir, "content/notes")
@@ -130,3 +157,4 @@ export const books: Book[] = ${JSON.stringify(books, null, 2)}
 generateAbout()
 generateNotes()
 generateBooks()
+generateWhatsYourName()

@@ -1,6 +1,6 @@
 import { cn } from "@/lib/utils"
 
-type Tab = "formalities" | "bookshelf" | "musings"
+type Tab = "formalities" | "musings" | "whats-your-name" | "bookshelf"
 
 interface SidebarProps {
   activeTab: Tab
@@ -12,7 +12,14 @@ interface SidebarProps {
 }
 
 export function Sidebar({ activeTab, onTabChange, width, isDragging, onMouseDown, mobileMenuOpen }: SidebarProps) {
-  const tabs: Tab[] = ["formalities", "musings", "bookshelf"]
+  const tabs: Tab[] = ["formalities", "musings", "whats-your-name", "bookshelf"]
+
+  const labels: Record<Tab, string> = {
+    formalities: "Formalities",
+    musings: "Musings",
+    "whats-your-name": "what's your name?",
+    bookshelf: "Bookshelf",
+  }
 
   return (
     <aside
@@ -46,7 +53,7 @@ export function Sidebar({ activeTab, onTabChange, width, isDragging, onMouseDown
               activeTab === tab ? "text-foreground" : "text-foreground/40 hover:text-foreground/70",
             )}
           >
-            {tab.charAt(0).toUpperCase() + tab.slice(1)}
+            {labels[tab]}
           </button>
         ))}
       </nav>
