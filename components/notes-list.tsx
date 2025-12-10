@@ -11,19 +11,18 @@ interface NotesListProps {
   onMouseDown: (e: React.MouseEvent) => void
 }
 
-// Helper function to parse date string (MM-DD-YYYY) and return comparable timestamp
-function parseNoteDate(dateString: string): number {
-  const [month, day, year] = dateString.split('-').map(Number)
-  return new Date(year, month - 1, day).getTime()
-}
-
-// Sort notes in reverse chronological order (newest first)
-function sortNotesByDate() {
-  return [...notes].sort((a, b) => parseNoteDate(b.date) - parseNoteDate(a.date))
+// Custom sort: force \"the_paracausal_forces\" to appear first,
+// keep the rest in their existing order.
+function sortNotesForDisplay() {
+  return [...notes].sort((a, b) => {
+    if (a.slug === "the_paracausal_forces") return -1
+    if (b.slug === "the_paracausal_forces") return 1
+    return 0
+  })
 }
 
 export function NotesList({ selectedNote, onSelectNote, width, isDragging, onMouseDown }: NotesListProps) {
-  const sortedNotes = sortNotesByDate()
+  const sortedNotes = sortNotesForDisplay()
   return (
     <div
       style={{ width: width ? `${width}px` : '100%' }}
