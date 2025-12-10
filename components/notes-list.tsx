@@ -51,7 +51,7 @@ export function NotesList({ selectedNote, onSelectNote, width, isDragging, onMou
                   <p className="text-xs text-muted-foreground font-mono uppercase tracking-widest">{note.date}</p>
                 </Link>
                 {index < sortedNotes.length - 1 && (
-                  <div className="h-px bg-border my-4" />
+                  <div className="h-px bg-border my-1" />
                 )}
               </div>
             ))}

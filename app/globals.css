@@ -51,7 +51,8 @@
 .dark {
   /* Base colors - edit these */
   --base-bg: oklch(0.145 0 0);
-  --base-fg: oklch(0.985 0 0);
+  /* slightly dimmer foreground in dark mode */
+  --base-fg: oklch(0.9 0 0);
   --base-muted: oklch(0.269 0 0);
   --base-muted-fg: oklch(0.708 0 0);
   --base-border: oklch(0.22 0.015 70);
