@@ -43,7 +43,7 @@ export function BookshelfList({ selectedBook, onSelectBook, width, isDragging, o
                             <div className="text-base font-medium text-foreground">{book.title}</div>
                             <span className="text-muted-foreground text-sm transition-transform duration-200 ease-[cubic-bezier(0.34,1.56,0.64,1)] group-hover:translate-x-0.5 group-hover:-translate-y-0.5">↗</span>
                           </div>
-                          <div className="text-sm text-muted-foreground">
+                          <div className="text-sm text-muted-foreground break-words">
                             {book.author}, {book.year}
                           </div>
                         </Link>
@@ -52,7 +52,7 @@ export function BookshelfList({ selectedBook, onSelectBook, width, isDragging, o
                           <div className="flex items-baseline gap-2">
                             <div className="text-base font-medium text-foreground">{book.title}</div>
                           </div>
-                          <div className="text-sm text-muted-foreground">
+                          <div className="text-sm text-muted-foreground break-words">
                             {book.author}, {book.year}
                           </div>
                         </div>
@@ -70,7 +70,7 @@ export function BookshelfList({ selectedBook, onSelectBook, width, isDragging, o
                 .filter((book) => !book.isReading)
                 .map((book, index, filteredBooks) => (
                   <li key={book.slug} className="text-foreground">
-                    <div className="inline-block align-top">
+                    <div className="inline-block align-top" style={{ width: "calc(100% - 1.5em)" }}>
                       {book.hasNotes ? (
                         <Link
                           href={`/bookshelf/${book.slug}`}
