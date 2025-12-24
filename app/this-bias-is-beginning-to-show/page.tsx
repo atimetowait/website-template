@@ -3,22 +3,19 @@
 import { useState } from "react"
 import { useRouter } from "next/navigation"
 import { Menu, X } from "lucide-react"
-import { NotesList } from "@/components/notes-list"
 import { Sidebar } from "@/components/sidebar"
+import { ThisBiasSection } from "@/components/this-bias-section"
+import { Footer } from "@/components/footer"
 
 const sidebarWidth = 320
 
-export default function MusingsPage() {
+export default function ThisBiasPage() {
   const router = useRouter()
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
-  const handleSelectNote = (slug: string) => {
-    router.push(`/musings/${slug}`)
-  }
-
   return (
     <div className="flex min-h-screen">
-      {/* Mobile menu toggle button, same as homepage */}
+      {/* Mobile menu toggle button, same as other pages */}
       <button
         onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
         className="fixed top-6 left-6 z-50 md:hidden bg-background border border-border rounded-lg p-2.5 hover:bg-muted shadow-sm"
@@ -28,13 +25,13 @@ export default function MusingsPage() {
       </button>
 
       <Sidebar
-        activeTab="musings"
+        activeTab="this-bias-is-beginning-to-show"
         onTabChange={(tab) => {
           if (tab === "formalities") router.push("/")
-          else if (tab === "bookshelf") router.push("/bookshelf")
           else if (tab === "musings") router.push("/musings")
           else if (tab === "whats-your-name") router.push("/whats-your-name")
           else if (tab === "this-bias-is-beginning-to-show") router.push("/this-bias-is-beginning-to-show")
+          else if (tab === "bookshelf") router.push("/bookshelf")
         }}
         width={sidebarWidth}
         isDragging={false}
@@ -42,13 +39,12 @@ export default function MusingsPage() {
         mobileMenuOpen={mobileMenuOpen}
       />
 
-      <NotesList
-        selectedNote={null}
-        onSelectNote={handleSelectNote}
-        width={600}
-        isDragging={false}
-        onMouseDown={() => {}}
-      />
+      <main className="flex-1 px-8 md:px-16 max-w-3xl overflow-y-auto pt-28 md:pt-16 flex flex-col justify-between min-h-screen pb-0">
+        <div className="space-y-10">
+          <ThisBiasSection />
+        </div>
+        <Footer />
+      </main>
 
       {mobileMenuOpen && (
         <div

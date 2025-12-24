@@ -11,7 +11,7 @@ import { NoteReader } from "@/components/note-reader"
 import { BookReader } from "@/components/book-reader"
 import { ContentPanel } from "@/components/content-panel"
 
-type Tab = "formalities" | "musings" | "whats-your-name" | "bookshelf"
+type Tab = "formalities" | "musings" | "whats-your-name" | "this-bias-is-beginning-to-show" | "bookshelf"
 
 export default function PersonalWebsite() {
   const router = useRouter()
@@ -50,6 +50,8 @@ const bookList = {
       router.push("/musings")
     } else if (tab === "whats-your-name") {
       router.push("/whats-your-name")
+    } else if (tab === "this-bias-is-beginning-to-show") {
+      router.push("/this-bias-is-beginning-to-show")
     } else if (tab === "bookshelf") {
       router.push("/bookshelf")
     }

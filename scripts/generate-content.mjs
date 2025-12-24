@@ -68,6 +68,36 @@ export const whatsYourName: WhatsYourName = ${JSON.stringify(page, null, 2)}
   console.log("✓ Generated what's your name? content")
 }
 
+// Generate \"This Bias is Beginning to Show\" content from root markdown file
+function generateThisBias() {
+  const pagePath = path.join(rootDir, "This Bias is Beginning to Show—.md")
+  if (!fs.existsSync(pagePath)) return
+
+  const fileContents = fs.readFileSync(pagePath, "utf8")
+  const { data, content } = matter(fileContents)
+
+  // Replace LaTeX-style $\quad$ markers with HTML indentation so they don't render as raw text
+  const processedContent = content.replace(/\$\s*\\quad\$/g, "&emsp;&emsp;")
+
+  const html = markdownToHtml(processedContent)
+
+  const page = {
+    title: data.title || "This Bias is Beginning to Show",
+    content: html,
+  }
+
+  const output = `export interface ThisBias {
+  title: string
+  content: string
+}
+
+export const thisBias: ThisBias = ${JSON.stringify(page, null, 2)}
+`
+
+  fs.writeFileSync(path.join(rootDir, "content/this-bias-is-beginning-to-show.tsx"), output)
+  console.log("✓ Generated This Bias is Beginning to Show content")
+}
+
 // Generate notes content
 function generateNotes() {
   const notesDir = path.join(rootDir, "content/notes")
@@ -158,3 +188,4 @@ generateAbout()
 generateNotes()
 generateBooks()
 generateWhatsYourName()
+generateThisBias()

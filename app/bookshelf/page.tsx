@@ -33,6 +33,7 @@ export default function BookshelfPage() {
           if (tab === "formalities") router.push("/")
           else if (tab === "bookshelf") router.push("/bookshelf")
           else if (tab === "whats-your-name") router.push("/whats-your-name")
+          else if (tab === "this-bias-is-beginning-to-show") router.push("/this-bias-is-beginning-to-show")
           else if (tab === "musings") router.push("/musings")
         }}
         width={sidebarWidth}

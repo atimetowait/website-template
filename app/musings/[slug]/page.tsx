@@ -22,6 +22,7 @@ export default function MusingPage() {
           else if (tab === "bookshelf") router.push("/bookshelf")
           else if (tab === "musings") router.push("/musings")
           else if (tab === "whats-your-name") router.push("/whats-your-name")
+          else if (tab === "this-bias-is-beginning-to-show") router.push("/this-bias-is-beginning-to-show")
         }}
         width={sidebarWidth}
         isDragging={false}
