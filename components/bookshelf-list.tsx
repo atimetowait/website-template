@@ -14,9 +14,10 @@ interface BookshelfListProps {
 export function BookshelfList({ selectedBook, onSelectBook, width, isDragging, onMouseDown }: BookshelfListProps) {
   return (
     <div
-      style={{ width: `${width}px` }}
+      style={{ width: width ? `${width}px` : "100%" }}
       className={cn(
-        "relative overflow-y-auto shrink-0 border-r border-border",
+        "relative overflow-y-auto shrink-0 md:border-r border-border",
+        "max-md:w-full max-md:max-w-full",
         selectedBook && "max-md:hidden",
       )}
     >
