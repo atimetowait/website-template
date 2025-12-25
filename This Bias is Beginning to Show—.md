@@ -137,7 +137,7 @@ $\quad$Though, my sleep related issues always acted as a precursor, a preview, s
 
 *$\quad$It may be the only thing that makes sense after what happened before.*  
 $\quad$The day, it was lovely, it was brisk, dreary, light rain showers, nothing to obstruct me–us. Though just enough to bring out the one thing I despise more than heat, when people assume the lack of it means an inverted, worse state—and now something to complain about.<br>$\quad$The misty rain was non-intrusive, you wouldn't even notice it.  
-The sort of rain that can just exist, but the miserable people...will still complain about the slight dampening on their dress.  
+The sort of rain that can just exist, but the miserable people will still complain about the slight dampening on their dress.  
 $\quad$It seems I’ll have to be the miserable one too, and say, I really loathe those types—the complainers. 
 So I'll just settle with this. I really like rainy weather.  
 Much like how I *love* this long hair.   
@@ -147,7 +147,7 @@ I just only realized how much of a love it is actually.
 
 $\quad$As I came to, out of a nightmare I can't even remember, I know that my hands, fingers, went immediately towards my knotted bed head and tugged out of desperation…akin to a plead…*"yeah, it's still long."*
 I settled down a bit after the immediate, then leaned into the next, fleeting thought. To which I would soon forget.<br>
-$\quad$As my memory fades, a feeling that either takes your tongue, or waits for you to choke the same—envelops me. Something that lies dormant, beneath breathy whispers, and music only slightly out of key. It tastes of stilled liquor, it’s near-sighted—*and I can’t fight back.* I want to know what it is, I want to be what it is, without knowing it all. All I do know however, is the chasms of homes locked in perpetual wars. Stricken belief systems, rigid...you die there.   
+$\quad$As my memory fades, a feeling that either takes your tongue, or waits for you to choke the same—envelops me. Something that lies dormant, beneath breathy whispers, and music only slightly out of key. It tastes of stilled liquor, it’s near-sighted—*and I can’t fight back.* I want to know what it is, I want to be what it is, without knowing it at all. All I do know however, is the chasms of homes locked in perpetual wars. Stricken belief systems, rigid...you die there.   
 $\quad$Much like in staying put, much like in staying home, *nothing ever happens,* and it’s happening to everyone. Everywhere I go, like moths drawn to flames, like threadings soon to twine, there is something so much more to bear, and it eats at everyone.
 
  	It is everyone, now that I think.  
