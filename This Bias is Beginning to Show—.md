@@ -2,14 +2,12 @@
 
 $\quad$Ever since I was this young-minded, fickle girl. There has been this incessant…ticking-like sensation in my head. Much how a clock works, sure. 
 Or better yet…a bomb.  
-
 $\quad$But this kind has no timer…it just goes, and goes.
 On, to off. It trails to the beats of my chest again, still. It rises to this anxiety curdling inside of me.  
-And as I'm waiting, it feels like I’m an atom — soon to split. 
-
+And as I'm waiting, it feels like I’m an atom — soon to split.<br>
 $\quad$Though, as this bomb is ticking, (it has to be counting in the negatives by now) it’s still mute for everyone else. This is insidious I think, it’s deafening. Where is the fissure? When does the redemption from this mortal failure, (some would call it a success) start?   
+$\quad$*This is maybe just what someone like **me** needs to slowly lose control*—***And maybe that’s just what I want.***
 
-*This is maybe just what someone like **me** needs to slowly lose control*—***And maybe that’s just what I want.***
 
 	It reverberates, and echoes you know. 
 	It bounces off the primordial walls in my head, others...find harmony there. 
@@ -26,10 +24,8 @@ $\quad$Though, as this bomb is ticking, (it has to be counting in the negatives 
 
 								Enough.
 
-$\quad$Was it supposed to be this way? <br>Caught in-between a broken clock, and the undoing of time itself.  
-<br>I’m afraid there’s no going back, yes?
-
-$\quad$That thought itself, quells the anxiety for a moment maybe too, the idea of finality. 
+$\quad$Was it supposed to be this way? <br>Caught in-between a broken clock, and the undoing of time itself. $\quad$I’m afraid there’s no going back, yes?<br>
+That thought itself, quells the anxiety for a moment maybe too, the idea of finality. 
 No back to forth then back again. Something in finale, encore raised with a roaring crowd.
 Things you cannot turn off.
 <br>
@@ -41,46 +37,37 @@ Things you cannot turn off.
 
 *The ossuary—* <br>
 $\quad$It housed the bones I bared before you.   
-Tiny figments of my imagination laid alone in it, dormant through time. I reconcile with it now.   
-	
-
-$\quad$But I’ve never been one to find meaning in pitiful trinkets, if you could even call what lay in this box a trinket…it’s one of bones—old, & decrepit. The stench is palpable, the sight is one that would rear a head in both directions, now. 
-These bones were broken long before they wound up in a box like this however.   
-Nothing is *born* broken after all. 
+Tiny figments of my imagination laid alone in it, dormant through time. I reconcile with it now.<br>$\quad$But I’ve never been one to find meaning in pitiful trinkets, if you could even call what lay in this box a trinket…it’s one of bones—old, & decrepit.<br>$\quad$The stench is palpable, the sight is one that would rear a head in both directions, now. <br>These bones were broken long before they wound up in a box like this however.   
+Nothing is *born* broken, after all. 
 
 ***Where will you end up?*** 
 
 $\quad$These were filed down over years, decades — a lifetime of standing tall does that to you. 
-
 But then, is it worth it? 
-
 $\quad$To stand tall is to stand out as well. That pressure holds weight, and with enough of it, you’d be filed down too…***can you take it?***  
 $\quad$See, I first began to think mountains could never be moved. That then, the earth held us. Suns were meant to provide warmth. Stars would never mean to die.
-
 $\quad$*People, hid no lie.*  
 $\quad$And there were *never* wrong answers.
-
-But then you move forward, back.   
+$\quad$But then you move forward, back.   
 Adjacently now – more than ever.  
-For if parallels were in *our* forms, they exist to keep us there.  
-Suspended, one-to-one. Same-like.  
-No differs here.
-A contract, sealed with finites.
 
-Now…one must first start in a head, body-like motion.   
-All in which never seems – still.   
+*For if parallels were in our forms, they exist to keep us there.*
+*Suspended, one-to-one.*<br>*Same-like.*<br>
+*No differs here.*<br>
+*A contract, sealed with finites.*<br>
+
+$\quad$Now…one must first start in a head, body-like motion.   
+All in which never seems – still.<br>
 Seconded though, a forwardness remains.  
-A prior kin, a lost ark, a bound to hold.
-
-Take it.
-
-Threaded through into secant lines.   
+A prior kin, a lost ark, a bound to hold.<br>
+Take it.<br>
+$\quad$Threaded through into secant lines.   
 Tug on one, small-like.  
 Is it beautiful...to you?   
 Tug on it a lot actually.  
 But not to reveal its threading\!
 
-Just enough for it to take shape in those...smaller spaces, like you take forth now.
+*Just enough for it to take shape in those...smaller spaces, like you take forth now.*
 
 	You’ve been so thin – for so long?  
 	For why? 
@@ -98,8 +85,7 @@ You must break\! In now\!\!\!
 Go forth, landing on the hardest of beds, you alone. Lie rest in.   
 You again, though. Must. Be. Still.   
 And now, for the first time. 
-Accept it.  
-
+Accept it.<br>
 $\quad$Though did you know?  
 That even I, am birthed from these embers that lie deep below the rapture, the calling, your peace.  
 But for now, please hold some mindfulness here.  
@@ -107,22 +93,19 @@ Nothing…comes from ash. You must break, collapse...then finally\!
 Eclipse yourself in nature, and last now\!\!\!
 
 	Forsake them.  
-All. Of. Them.  
-***For all who bear witness to this inwards collapse.***
-
-*Believe me.*
-*They cannot do anything but, forever work to quell those imminent pulses.*
+All. Of. Them. <br> 
+***For all who bear witness to this inwards collapse.***<br>
+*Believe me.*<br>
+$\quad$*They cannot do anything but, forever work to quell those imminent pulses.*
 *For you now, – have perused their own. Seek solace through that.*
-*That you – Above all the other morally dissonant beings.*
-**“*Are finally whole.”***
+*That you – Above all the other morally dissonant beings.*<br>
+$\quad$**“*Are finally whole.”***
 
-*You now…only light into rebirths\!\!\! Aren’t you thrilled? There is no succumbed ache to replace a feeling like – that.* 
-
+*You now…only light into rebirths\!\!\! Aren’t you thrilled? There is no succumbed ache to replace a feeling like – that.* <br>
 $\quad$Though, once you finally let it take you over. There’s the thrills end. Then, it shall finally be time to revel in your prowess. The differences in you & I, for example\!  
 Like that threading in you. It can make twine even, did you know?  
 Into yarn too, to rope, now. Further it then\!  
-But no…
-
+But no…<br>
 $\quad$No tying of those noose-like knots you only, can never do correct. You failed then, and will fail towards it again.
 Now\!\!\! 
 Your yarn\!    
@@ -147,26 +130,23 @@ Pull up your kin, then. If that’s still you...
 $\quad$My hair is getting to an objectively long point now.  
 I don't get nightmares anymore, let alone dreams when I do sleep.   
 I think I've chalked it towards my psychiatric cocktail of medicine.   
-The same ones I’ve had since I was 14, I've taken them all, religiously, righteously…since that age, too.
-
-Though, my sleep related issues always acted as a precursor, a preview, something in the ‘former’ for me to figure out…what then?
+The same ones I’ve had since I was 14, I've taken them all, religiously, righteously…since that age, too.<br>
+$\quad$Though, my sleep related issues always acted as a precursor, a preview, something in the ‘former’ for me to figure out…what then?
 
 				I had a nightmare, again.
 
-*$\quad$It this may be the only thing that makes sense after what happened before.*  
-$\quad$The day, it was lovely, it was brisk, dreary, light rain showers, nothing to obstruct me–us. Though just enough to bring out the one thing I despise more than heat, when people assume the lack of it means an inverted, worse state—and now something to complain about.  
-The misty rain was non-intrusive, you wouldn't even notice it.  
-The sort of rain that can just exist, but the miserable people about will still complain about the slight dampening on their dress.  
+*$\quad$It may be the only thing that makes sense after what happened before.*  
+$\quad$The day, it was lovely, it was brisk, dreary, light rain showers, nothing to obstruct me–us. Though just enough to bring out the one thing I despise more than heat, when people assume the lack of it means an inverted, worse state—and now something to complain about.<br>$\quad$The misty rain was non-intrusive, you wouldn't even notice it.  
+The sort of rain that can just exist, but the miserable people...will still complain about the slight dampening on their dress.  
 $\quad$It seems I’ll have to be the miserable one too, and say, I really loathe those types—the complainers. 
 So I'll just settle with this. I really like rainy weather.  
 Much like how I *love* this long hair.   
 I just only realized how much of a love it is actually.
 
-I fell asleep again but was jolted out of a rem cycle this time.
+*I fell asleep again but was jolted out of a rem cycle this time.*
 
 $\quad$As I came to, out of a nightmare I can't even remember, I know that my hands, fingers, went immediately towards my knotted bed head and tugged out of desperation…akin to a plead…*"yeah, it's still long."*
-I settled down a bit after the immediate, then leaned into the next, fleeting thought. To which I would soon forget.
-
+I settled down a bit after the immediate, then leaned into the next, fleeting thought. To which I would soon forget.<br>
 $\quad$As my memory fades, a feeling that either takes your tongue, or waits for you to choke the same—envelops me. Something that lies dormant, beneath breathy whispers, and music only slightly out of key. It tastes of stilled liquor, it’s near-sighted—*and I can’t fight back.* I want to know what it is, I want to be what it is, without knowing it all. All I do know however, is the chasms of homes locked in perpetual wars. Stricken belief systems, rigid...you die there.   
 $\quad$Much like in staying put, much like in staying home, *nothing ever happens,* and it’s happening to everyone. Everywhere I go, like moths drawn to flames, like threadings soon to twine, there is something so much more to bear, and it eats at everyone.
 
@@ -177,12 +157,10 @@ $\quad$Much like in staying put, much like in staying home, *nothing ever happen
 
 # Odddity 3: As deep as you are tall, as suffocating as you are beautiful
 
-$\quad$Now, what are the right words to describe something so deep as it is tall? Where does redemption pass forth into retribution? Why did my words choke my vocal cords so tight, they snapped.
-
+$\quad$Now, what are the right words to describe something so deep as it is tall? Where does redemption pass forth into retribution? Why did my words choke my vocal cords so tight, they snapped.<br>
 $\quad$What son of God made rules like this, ones you don’t have to follow, but ones that must be accounted for. I’d like to think we all can feel it – the weight, that is. 
 It reminds me of enduring the worst, the abominable human-spirit that never quits. What do we do to become the thing we hate? A lack of foresightedness? Near, far? 
-Out in weathered plains I saw a glimpse of what nurturing does to build one not only up, but out.
-
+Out in weathered plains I saw a glimpse of what nurturing does to build one not only up, but out.<br>
 $\quad$It's still there, right here actually.  
 Beaming in my chest—refracted light. 
 With it, the moths seem to do all they can to see who'll shrivel up first.  
@@ -196,47 +174,42 @@ I didn't know what to do with it either. I didn't heed the calls, or answer the 
 *Like a ghost in the mirror.*  
 *A ghost in the wings?*
 
-Like sirens, entrenching weight follows each tone. 
+$\quad$Like sirens, entrenching weight follows each tone. 
 Enough to keep my head below the surface level.  
 Deep breathes in and out of clarity help.  
 Though the undertow unravels all, it'll even make a warrior out of you too, if you let it...promise it your secrets, dear — you don't have anything to hide still…do you? 
  
 $\quad$Speak.  
-$\quad$Or,
+$\quad$Or,<br>
 ***Forever hold your peace?***
 
 $\quad$I laid there in the dark for some while.  
 I thought indifference couldn't follow me here. I thought black didn't fade to gray, I thought I'd never lose my footing. I thought—
 That's all I'll ever do...is think.  
 Think, for what exactly?  
-$\quad$To rebuttal an already exposed sore? All you can do is hurt, but watch them break down the grease, then. Trust. It was never meant to hold you this close yet, you're still in its wake. The knowledge is comforting, and what lingers inside of you is foreboding—an instinctual nature that lie deep inside those wounds.
-
-$\quad$To weep or not is more worrying than the onset of tears. The last thing on your face before death, the last thing on your mind. What are you thinking? Do you even think, in a moment like that? Are you thinking right now? And why is that bothersome, or burdensome? Even worse, *worrisome*.  
- 	
-
+$\quad$To rebuttal an already exposed sore? All you can do is hurt, but watch them break down the grease, then. Trust. It was never meant to hold you this close yet, you're still in its wake. The knowledge is comforting, and what lingers inside of you is foreboding—an instinctual nature that lie deep inside those wounds.<br>
+$\quad$To weep or not is more worrying than the onset of tears. The last thing on your face before death, the last thing on your mind. What are you thinking? Do you even think, in a moment like that? Are you thinking right now? And why is that bothersome, or burdensome? Even worse, *worrisome*.<br>
 $\quad$Because the more you worry, the more it drills farther into this husk, a husk with bones. 
 A husk with feelings that need reminded of life, and not death. Not superficial crystals, or inescapable dialogues with people who wouldn't dare dip their toes into your tepid waters. 
 $\quad$But I need climax, to be displayed like a God. I want bullets with no exit wounds, depth with no drowning, nothing to bring me back to something. 
 $\quad$I'll watch the world relapse, I'll cherish a fleeting breath, I'll love just a little harder so that when I shout your name it wouldn't dare return back an echo, for there can be no other alter. I'd lay with my peace, and count til three.
 
-Suddenly there's the bell, how it chimes is unrecognizable now but I still feel the vibrations in my chest that remind me—it's home.
-
+*Suddenly there's the bell, how it chimes is unrecognizable now but I still feel the vibrations in my chest that remind me—it's home.*<br>
 $\quad$I wallow in my slowness for a bit. I wallow a fair bit, actually. Mainly reminiscing towards the past, and towards this present I wouldn't dare predict. There are school kids that run around again, and the clock suddenly lines up correctly. 
 $\quad$For once, or twice it does. There’s something forward, comforting—to be beautiful is to have timing, sequence, and luck billow up over cadences, eventually we all can become it. To be tall is to just own the latter, a fair bit of luck. Though to be deep, is to have suffocated beneath the howl of winter, and still grasp onto what the silence of solitude’s best, bring.
 
-A new day, a new winter, someone to hold again—one day.
+*A new day, a new winter, someone to hold again—one day.*
 
 $\quad$Burn–I want you all in ash, in figments of passed time. I saw your true nature.   
 The one that lays dormant for half a decade, the one that seeps into your chest cavities, and billows up through your neck–out your lying mouth.   
 $\quad$The same one that would tell me it’s going to be alright. The one that kissed me goodnight, it sang sweet tones, after being bound for so long. Breaking them with your lips felt as if I had been underwater, sucking in H2o till my lungs would break. I learned how to breathe down under…over and over again. You all eventually rear your head though. I saw mine twist at 90 degrees, trying to look away from what you’ve become–from what I had become too.   
 $\quad$Hollowness, betwixted my demons into you just so I could rest my head on pillows that were never mine. It was never home, and you were never that either.   
-I lost that years ago, just as I lost control…the last time I lost control.
-
+I lost that years ago, just as I lost control…the last time I lost control.<br>
 $\quad$There was a point in time where I thought it wasn’t all for nothing, that in turning tides–there would be a spot for me, with glory. 
 $\quad$Golden walls, birth-righted figurines, *my name itched in its halls.* A house so deep it allowed cracks to simply, be swallowed up. 
 No one would notice the difference anyways, I thought. I thought too much, and it made me sick. 
 $\quad$Sicker than whatever is eating at me, sicker than the kiss they told me to take, sicker than whatever it made me turn into. I sat, and I watched instead. I saw the halls turn rusted green, I saw my hands crack in displeasure, there was blood. A lot of it. I didn’t know they’d allow me to, *I still feel it all*.   
 $\quad$On the bad days it’s like I’m still there, in your bed. On the good days I’m still scared of what hope envisions in me, moving on? A task for the Gods I’m afraid, letting go? 
 
-$\quad$Something only my feeble frame can do, eventually, I can imagine these hands doing something of the sorts–letting go, be new, have hope.
-It's still just me. Through it all.
+$\quad$Something only my feeble frame can do, eventually, I can imagine these hands doing something of the sorts–letting go, being new, having hope.
+It's still just me.<br> Through it all.
