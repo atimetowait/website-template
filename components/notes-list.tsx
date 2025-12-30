@@ -15,6 +15,10 @@ interface NotesListProps {
 // keep the rest in their existing order.
 function sortNotesForDisplay() {
   return [...notes].sort((a, b) => {
+    // Pin the newest note to the very top.
+    if (a.slug === "i_fell_in_love_with_the_messenger") return -1
+    if (b.slug === "i_fell_in_love_with_the_messenger") return 1
+
     if (a.slug === "the_paracausal_forces") return -1
     if (b.slug === "the_paracausal_forces") return 1
     return 0
