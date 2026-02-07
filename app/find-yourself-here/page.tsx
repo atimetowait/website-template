@@ -5,7 +5,7 @@ import { useRouter } from "next/navigation"
 import { Menu, X, RefreshCw } from "lucide-react"
 import { Sidebar } from "@/components/sidebar"
 import { Footer } from "@/components/footer"
-import { generatePoeticLine } from "@/lib/poetic-generator"
+import { generatePoeticLine, highlightNouns } from "@/lib/poetic-generator"
 
 const sidebarWidth = 320
 
@@ -97,7 +97,23 @@ export default function FindYourselfHerePage() {
                   animation: "fadeIn 0.5s ease-in both",
                 }}
               >
-                {lineData.line}
+                {highlightNouns(lineData.line).map((part, index) => {
+                  if (part.type === "noun") {
+                    return (
+                      <span key={index} className="text-red-500">
+                        {part.text}
+                      </span>
+                    )
+                  } else if (part.type === "pronoun") {
+                    return (
+                      <span key={index} className="text-blue-500">
+                        {part.text}
+                      </span>
+                    )
+                  } else {
+                    return <span key={index}>{part.text}</span>
+                  }
+                })}
               </div>
             )}
           </div>
