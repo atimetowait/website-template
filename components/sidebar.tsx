@@ -1,6 +1,6 @@
 import { cn } from "@/lib/utils"
 
-type Tab = "formalities" | "musings" | "whats-your-name" | "this-bias-is-beginning-to-show" | "bookshelf"
+type Tab = "formalities" | "musings" | "whats-your-name" | "this-bias-is-beginning-to-show" | "bookshelf" | "poetic-lines"
 
 interface SidebarProps {
   activeTab: Tab
@@ -14,6 +14,7 @@ interface SidebarProps {
 export function Sidebar({ activeTab, onTabChange, width, isDragging, onMouseDown, mobileMenuOpen }: SidebarProps) {
   const tabs: Tab[] = [
     "formalities",
+    "poetic-lines",
     "this-bias-is-beginning-to-show",
     "musings",
     "whats-your-name",
@@ -26,6 +27,7 @@ export function Sidebar({ activeTab, onTabChange, width, isDragging, onMouseDown
     "whats-your-name": "what's your name?",
     "this-bias-is-beginning-to-show": "This Bias is Beginning to Show",
     bookshelf: "Bookshelf",
+    "poetic-lines": "Find yourself here",
   }
 
   return (

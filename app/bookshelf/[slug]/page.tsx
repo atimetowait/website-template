@@ -23,6 +23,7 @@ export default function BookPage() {
           else if (tab === "whats-your-name") router.push("/whats-your-name")
           else if (tab === "this-bias-is-beginning-to-show") router.push("/this-bias-is-beginning-to-show")
           else if (tab === "musings") router.push("/musings")
+          else if (tab === "poetic-lines") router.push("/find-yourself-here")
         }}
         width={sidebarWidth}
         isDragging={false}
