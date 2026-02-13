@@ -8,17 +8,19 @@ interface ContentPanelProps {
 
 export function ContentPanel({ onClose, children }: ContentPanelProps) {
   return (
-    <main className="flex-1 p-6 md:p-16 w-full max-w-full md:max-w-3xl overflow-y-auto overflow-x-hidden max-md:pt-20 relative">
-      <div className="absolute top-4 right-4">
-        <button
-          onClick={onClose}
-          className="p-2 hover:bg-muted rounded-lg transition-colors"
-          aria-label="Close reading panel"
-        >
-          <X className="w-4 h-4 text-muted-foreground" />
-        </button>
+    <main className="flex-1 overflow-y-auto overflow-x-hidden relative flex justify-center">
+      <div className="w-full max-w-3xl p-6 md:p-16 max-md:pt-20">
+        <div className="absolute top-4 right-4 md:right-16">
+          <button
+            onClick={onClose}
+            className="p-2 hover:bg-muted rounded-lg transition-colors"
+            aria-label="Close reading panel"
+          >
+            <X className="w-4 h-4 text-muted-foreground" />
+          </button>
+        </div>
+        {children}
       </div>
-      {children}
     </main>
   )
 }

@@ -40,11 +40,13 @@ export default function ThisBiasPage() {
         mobileMenuOpen={mobileMenuOpen}
       />
 
-      <main className="flex-1 px-8 md:px-16 max-w-3xl overflow-y-auto pt-28 md:pt-16 flex flex-col justify-between min-h-screen pb-0">
-        <div className="space-y-10">
-          <ThisBiasSection />
+      <main className="flex-1 overflow-y-auto flex justify-center">
+        <div className="w-full max-w-3xl px-8 md:px-16 pt-28 md:pt-16 flex flex-col justify-between min-h-screen pb-0">
+          <div className="space-y-10">
+            <ThisBiasSection />
+          </div>
+          <Footer />
         </div>
-        <Footer />
       </main>
 
       {mobileMenuOpen && (
