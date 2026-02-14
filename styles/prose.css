@@ -78,4 +78,15 @@
   .prose blockquote {
     @apply border-l-4 border-border pl-4 italic my-4;
   }
+
+  /* This Bias is Beginning to Show content uses Alegreya font */
+  .this-bias-content {
+    font-family: var(--font-alegreya);
+    font-size: 1.25rem;
+  }
+
+  .this-bias-content h1,
+  .this-bias-content h2 {
+    font-family: var(--font-serif);
+  }
 }
