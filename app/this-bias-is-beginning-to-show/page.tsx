@@ -40,7 +40,7 @@ export default function ThisBiasPage() {
       />
 
       <main className="flex-1 flex justify-center overflow-hidden">
-        <div className="w-full max-w-3xl px-8 md:px-16 pt-20 md:pt-12 h-full">
+        <div className="w-full max-w-3xl px-5 md:px-16 pt-16 md:pt-12 h-full">
           <ThisBiasSection />
         </div>
       </main>
