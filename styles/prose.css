@@ -156,6 +156,15 @@
     flex: 1;
     min-height: 0;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  @media (min-width: 768px) {
+    .bias-reader-body {
+      justify-content: flex-start;
+    }
   }
 
   .bias-page-container {
