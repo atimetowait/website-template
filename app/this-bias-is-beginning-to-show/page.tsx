@@ -5,7 +5,6 @@ import { useRouter } from "next/navigation"
 import { Menu, X } from "lucide-react"
 import { Sidebar } from "@/components/sidebar"
 import { ThisBiasSection } from "@/components/this-bias-section"
-import { Footer } from "@/components/footer"
 
 const sidebarWidth = 320
 
@@ -40,12 +39,9 @@ export default function ThisBiasPage() {
         mobileMenuOpen={mobileMenuOpen}
       />
 
-      <main className="flex-1 overflow-y-auto flex justify-center">
-        <div className="w-full max-w-3xl px-8 md:px-16 pt-28 md:pt-16 flex flex-col justify-between min-h-screen pb-0">
-          <div className="space-y-10">
-            <ThisBiasSection />
-          </div>
-          <Footer />
+      <main className="flex-1 flex justify-center overflow-hidden">
+        <div className="w-full max-w-3xl px-8 md:px-16 pt-20 md:pt-12 h-full">
+          <ThisBiasSection />
         </div>
       </main>
 

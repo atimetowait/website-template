@@ -14,8 +14,8 @@ interface SidebarProps {
 export function Sidebar({ activeTab, onTabChange, width, isDragging, onMouseDown, mobileMenuOpen }: SidebarProps) {
   const tabs: Tab[] = [
     "formalities",
-    "poetic-lines",
     "this-bias-is-beginning-to-show",
+    "poetic-lines",
     "musings",
     "whats-your-name",
     "bookshelf",
