@@ -17,7 +17,7 @@ export default function ThisBiasPage() {
       {/* Mobile menu toggle button, same as other pages */}
       <button
         onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-        className="fixed top-6 left-6 z-50 md:hidden bg-background border border-border rounded-lg p-2.5 hover:bg-muted shadow-sm"
+        className="fixed top-6 right-6 z-50 md:hidden bg-background border border-border rounded-lg p-2.5 hover:bg-muted shadow-sm"
         aria-label="Toggle menu"
       >
         {mobileMenuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
