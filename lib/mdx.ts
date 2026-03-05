@@ -135,6 +135,8 @@ export function getBookBySlug(slug: string): BookWithContent | null {
 // Supports: headings, paragraphs, blockquotes, lists, links, code blocks,
 // bold/italic, strikethrough, tables, task lists, and more (GitHub Flavored Markdown)
 export function markdownToHtml(markdown: string): string {
-  // marked v12 exposes a named export `marked` with a `.parse` method
-  return marked.parse(markdown)
+  // With breaks: true, newlines already become <br>.
+  // Strip explicit <br> tags right before a newline to avoid doubling.
+  const cleaned = markdown.replace(/<br\s*\/?>\s*\n/g, '\n')
+  return marked.parse(cleaned, { breaks: true })
 }

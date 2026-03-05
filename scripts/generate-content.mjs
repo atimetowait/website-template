@@ -10,8 +10,10 @@ const rootDir = path.join(__dirname, "..")
 
 // Convert Markdown to HTML using marked with full markdown support
 function markdownToHtml(markdown) {
-  // marked v12 exposes a named export `marked` with a `.parse` method
-  return marked.parse(markdown)
+  // With breaks: true, newlines already become <br>.
+  // Strip explicit <br> tags right before a newline to avoid doubling.
+  const cleaned = markdown.replace(/<br\s*\/?>\s*\n/g, '\n')
+  return marked.parse(cleaned, { breaks: true })
 }
 
 // Generate about content

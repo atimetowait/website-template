@@ -83,7 +83,7 @@ function breakLargeParagraphs(container: HTMLElement): void {
   }
 }
 
-function splitByHeight(html: string, maxHeight: number): string[] {
+function splitByHeight(html: string, maxHeight: number, containerWidth?: number): string[] {
   if (typeof document === "undefined") return [html]
 
   const cleaned = cleanHtml(html)
@@ -94,10 +94,13 @@ function splitByHeight(html: string, maxHeight: number): string[] {
 
   const measure = document.createElement("div")
   measure.className = "prose prose-neutral dark:prose-invert max-w-none text-foreground this-bias-content"
+  const widthCss = containerWidth
+    ? `width: ${containerWidth}px;`
+    : `max-width: 48rem; padding: 0 4rem;`
   measure.style.cssText = `
-    position: absolute; top: 0; left: 0; right: 0;
+    position: absolute; top: 0; left: 0;
     visibility: hidden; pointer-events: none;
-    max-width: 48rem; padding: 0 4rem;
+    ${widthCss}
   `
   document.body.appendChild(measure)
 
@@ -173,7 +176,8 @@ export function ThisBiasSection() {
     const navHeight = 70
     const padding = 100
     const available = window.innerHeight - headerHeight - navHeight - padding
-    setPages(splitByHeight(thisBias.content, available))
+    const width = contentRef.current?.clientWidth
+    setPages(splitByHeight(thisBias.content, available, width))
   }, [])
 
   useEffect(() => {
