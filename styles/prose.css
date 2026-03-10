@@ -79,7 +79,8 @@
     @apply border-l-4 border-border pl-4 italic my-4;
   }
 
-  /* This Bias is Beginning to Show content uses Alegreya font */
+  /* ===== This Bias — Base typography ===== */
+
   .this-bias-content {
     font-family: var(--font-alegreya);
     font-size: 1rem;
@@ -98,14 +99,6 @@
     font-family: var(--font-serif);
   }
 
-  .this-bias-content h1:first-child {
-    margin-top: 0;
-  }
-
-  .this-bias-content p:last-child {
-    margin-bottom: 0;
-  }
-
   .this-bias-content p {
     margin-bottom: 0.5rem;
   }
@@ -116,191 +109,243 @@
     }
   }
 
-  .bias-para-group {
-    margin-bottom: 0.5rem;
-  }
-
-  @media (min-width: 768px) {
-    .bias-para-group {
-      margin-bottom: 0.75rem;
-    }
-  }
-
-  .bias-para-group:last-child {
+  .this-bias-content p:last-child {
     margin-bottom: 0;
   }
 
-  .bias-line {
-    line-height: inherit;
-  }
+  /* ===== Immersive layout ===== */
 
-  .bias-reader-layout {
-    display: flex;
-    flex-direction: column;
+  .bias-wrapper {
+    position: relative;
     height: 100%;
     overflow: hidden;
   }
 
-  .bias-reader-header {
-    flex-shrink: 0;
-    padding-bottom: 0.75rem;
+  .bias-scroll {
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    scrollbar-width: none;
+  }
+
+  .bias-scroll::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* ===== Progress bar ===== */
+
+  .bias-progress-track {
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    z-index: 30;
+  }
+
+  .bias-progress-fill {
+    height: 100%;
+    background: var(--foreground);
+    opacity: 0.2;
+    transform-origin: left;
+    transition: transform 0.08s linear;
+  }
+
+  /* ===== Film grain ===== */
+
+  .bias-grain {
+    position: absolute;
+    inset: 0;
+    z-index: 20;
+    pointer-events: none;
+    opacity: 0.032;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+    background-repeat: repeat;
+    background-size: 256px 256px;
+  }
+
+  /* ===== Vignette ===== */
+
+  .bias-vignette {
+    position: absolute;
+    inset: 0;
+    z-index: 15;
+    pointer-events: none;
+    background: radial-gradient(
+      ellipse at center,
+      transparent 35%,
+      rgba(0, 0, 0, 0.3) 100%
+    );
+  }
+
+  /* ===== Hero ===== */
+
+  .bias-hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 55vh;
+    padding: 2rem 1.5rem;
+    text-align: center;
   }
 
   @media (min-width: 768px) {
-    .bias-reader-header {
-      padding-bottom: 1.5rem;
+    .bias-hero {
+      min-height: 65vh;
+      padding: 2rem 3rem;
     }
   }
 
-  .bias-reader-body {
-    flex: 1;
-    min-height: 0;
-    overflow: hidden;
-    padding-top: 2rem;
+  .bias-hero-title {
+    font-family: var(--font-serif);
+    font-size: 1.75rem;
+    line-height: 1.3;
+    letter-spacing: 0.01em;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: biasHeroFade 1.2s ease 0.3s forwards;
   }
 
   @media (min-width: 768px) {
-    .bias-reader-body {
-      padding-top: 0;
+    .bias-hero-title {
+      font-size: 2.75rem;
     }
   }
 
-  .bias-page-container {
-    position: relative;
+  .bias-hero-hint {
+    margin-top: 3rem;
+    font-size: 1.25rem;
+    color: var(--muted-foreground);
+    opacity: 0;
+    animation: biasHeroFade 0.8s ease 1.4s forwards;
   }
 
-  .this-bias-page {
+  .bias-hero-arrow {
+    display: inline-block;
+    animation: biasArrowPulse 2.5s ease-in-out 2.2s infinite;
+  }
+
+  @keyframes biasHeroFade {
+    from { opacity: 0; transform: translateY(16px); }
+    to   { opacity: 0.6; transform: translateY(0); }
+  }
+
+  @keyframes biasArrowPulse {
+    0%, 100% { transform: translateY(0); }
+    50%      { transform: translateY(6px); }
+  }
+
+  /* ===== Article body ===== */
+
+  .bias-article {
+    padding: 0 0 4rem;
+  }
+
+  @media (min-width: 768px) {
+    .bias-article {
+      padding: 0 0 6rem;
+    }
+  }
+
+  /* ===== Prose reveal blocks ===== */
+
+  .bias-block {
+    opacity: 0;
+    transform: translateY(26px);
+    transition: opacity 0.75s ease, transform 0.75s ease;
+  }
+
+  .bias-block.bias-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  /* ===== Chapter interstitials ===== */
+
+  .bias-chapter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 40vh;
+    padding: 5rem 0;
+    opacity: 0;
+    transition: opacity 1s ease;
+  }
+
+  @media (min-width: 768px) {
+    .bias-chapter {
+      min-height: 50vh;
+      padding: 6rem 0;
+    }
+  }
+
+  .bias-chapter.bias-visible {
     opacity: 1;
   }
 
-  .this-bias-page.bias-page-entering {
-    animation: biasPageIn 0.4s ease forwards;
+  .bias-chapter-rule {
+    width: 36px;
+    height: 1px;
+    background: var(--muted-foreground);
+    opacity: 0.35;
+    margin-bottom: 2rem;
   }
 
-  .bias-page-outgoing {
-    position: absolute;
-    inset: 0;
-    animation: biasPageOut 0.35s ease forwards;
-    pointer-events: none;
-  }
-
-  @keyframes biasPageIn {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
-  }
-
-  @keyframes biasPageOut {
-    from {
-      opacity: 1;
-    }
-    to {
-      opacity: 0;
-    }
-  }
-
-  .bias-page-nav {
-    flex-shrink: 0;
-    display: flex;
-    justify-content: center;
-    padding: 0.75rem 0;
-    z-index: 10;
-  }
-
-  .bias-page-nav-inner {
-    position: relative;
-    display: flex;
-    align-items: center;
-    gap: 0.125rem;
-    background: var(--background);
-    border: 1px solid var(--border);
-    border-radius: 0.75rem;
-    padding: 0.25rem;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12);
-  }
-
-  .bias-nav-arrow {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 2.5rem;
-    height: 2.5rem;
-    border-radius: 0.5rem;
-    font-size: 1.1rem;
-    color: var(--foreground);
-    background: var(--muted);
-    transition: background 0.15s ease, color 0.15s ease;
-    font-family: var(--font-mono);
-  }
-
-  .bias-nav-arrow:hover {
-    background: var(--border);
-  }
-
-  .bias-nav-counter {
-    padding: 0.5rem 0.75rem;
-    font-family: var(--font-mono);
-    font-size: 0.85rem;
-    color: var(--muted-foreground);
-    border-radius: 0.375rem;
-    transition: background 0.15s ease, color 0.15s ease;
-  }
-
-  .bias-nav-counter:hover {
-    background: var(--muted);
-    color: var(--foreground);
-  }
-
-  .bias-page-menu {
-    position: absolute;
-    bottom: calc(100% + 0.375rem);
-    left: 50%;
-    transform: translateX(-50%);
-    max-height: 18rem;
-    overflow-y: auto;
-    background: var(--background);
-    border: 1px solid var(--border);
-    border-radius: 0.5rem;
-    padding: 0.375rem;
-    display: flex;
-    flex-direction: column;
-    gap: 1px;
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
-    animation: biasMenuIn 0.15s ease forwards;
-    z-index: 20;
-  }
-
-  @keyframes biasMenuIn {
-    from {
-      opacity: 0;
-      transform: translateX(-50%) translateY(4px);
-    }
-    to {
-      opacity: 1;
-      transform: translateX(-50%) translateY(0);
-    }
-  }
-
-  .bias-page-menu-item {
-    padding: 0.3rem 0.75rem;
-    border-radius: 0.325rem;
+  .bias-chapter-title {
+    font-family: var(--font-serif) !important;
+    font-size: 1.35rem !important;
+    font-weight: 400 !important;
     text-align: center;
-    font-family: var(--font-mono);
-    font-size: 0.8rem;
-    color: var(--muted-foreground);
-    transition: background 0.15s ease, color 0.15s ease;
-  }
-
-  .bias-page-menu-item:hover {
-    background: var(--muted);
+    letter-spacing: 0.02em;
+    margin: 0 !important;
+    line-height: 1.4 !important;
     color: var(--foreground);
   }
 
-  .bias-page-menu-item.active {
-    color: var(--foreground);
-    background: var(--muted);
+  @media (min-width: 768px) {
+    .bias-chapter-title {
+      font-size: 1.85rem !important;
+    }
+  }
+
+  /* ===== Line breaks (<br> on its own line) ===== */
+
+  .bias-line-break {
+    height: 1.25rem;
+  }
+
+  @media (min-width: 768px) {
+    .bias-line-break {
+      height: 1.75rem;
+    }
+  }
+
+  /* ===== Section breaks (--- in markdown) ===== */
+
+  .bias-article hr {
+    border: none;
+    border-top: 1px solid var(--muted-foreground);
+    opacity: 0.15;
+    width: 36px;
+    margin: 3rem auto;
+  }
+
+  /* ===== Pull-quote accent ===== */
+  /* Short bold+italic paragraphs rendered as dramatic callouts */
+
+  .bias-block > p:only-child > em:only-child > strong:only-child {
+    display: block;
+    font-size: 1.25em;
+    text-align: center;
+    padding: 1.25rem 0;
+    letter-spacing: 0.01em;
+  }
+
+  /* ===== End spacer ===== */
+
+  .bias-end {
+    height: 25vh;
   }
 }
