@@ -151,33 +151,6 @@
     transition: transform 0.08s linear;
   }
 
-  /* ===== Film grain ===== */
-
-  .bias-grain {
-    position: absolute;
-    inset: 0;
-    z-index: 20;
-    pointer-events: none;
-    opacity: 0.032;
-    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
-    background-repeat: repeat;
-    background-size: 256px 256px;
-  }
-
-  /* ===== Vignette ===== */
-
-  .bias-vignette {
-    position: absolute;
-    inset: 0;
-    z-index: 15;
-    pointer-events: none;
-    background: radial-gradient(
-      ellipse at center,
-      transparent 35%,
-      rgba(0, 0, 0, 0.3) 100%
-    );
-  }
-
   /* ===== Hero ===== */
 
   .bias-hero {
@@ -257,7 +230,7 @@
   }
 
   .bias-block.bias-visible {
-    opacity: 1;
+    opacity: 0.85;
     transform: translateY(0);
   }
 

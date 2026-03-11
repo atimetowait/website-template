@@ -1,13 +1,14 @@
 # Oddity 1: The Ossuary
 
-Ever since I was this young-minded, fickle girl. There has been this incessant…ticking-like sensation in my head. Much how a clock works, sure. 
+&emsp;Ever since I was this young, fickle girl. There has been this incessant…ticking-like sensation in the back of my head. Much how a clock works, sure. 
 Or better yet…a bomb.  
 But this kind has no timer…it just goes, and goes.
-On, to off. It trails to the beats of my chest again, still. It rises to this anxiety curdling inside of me.  
-And as I'm waiting, it feels like I’m an atom — soon to split.
-Though, as this bomb is ticking, (it has to be counting in the negatives by now) it’s still mute for everyone else. This is insidious I think, it’s deafening. Where is the fissure? When does the redemption from this mortal failure, (some would call it a success) start?   
+On, to off. It trails to the beats of my chest again, and still. It will rise to this anxiety curdling inside of me.  
+As I'm waiting, it feels like I’m an atom — soon to split. <br><br>
+&emsp;Though, as this bomb is ticking, (it has to be counting in the negatives by now) it’s still mute for everyone else. This is insidious I think, it’s deafening, I know...where is the fissure? When does the redemption from this mortal failure, (some would call it a success) start?<br><br>  
 
-*This is maybe just what someone like **me** needs to slowly lose control*—***And maybe that’s just what I want.***
+*This is maybe just what someone like **me** needs to slowly lose control*—
+**And maybe that’s just what I want.**
 
 ---
 
@@ -37,20 +38,22 @@ Things you cannot turn off.
 *Eyes...up!*
 <br><br>
 
-*The ossuary—*
+*The ossuary—*<br><br>
 It housed the bones I bared before you.   
-Tiny figments of my imagination laid alone in it, dormant through time. I reconcile with it now.
-But I've never been one to find meaning in pitiful trinkets, if you could even call what lay in this box a trinket…it's one of bones—old, & decrepit.
+Tiny figments of my imagination laid alone in it, dormant through time. 
+I reconcile with it now.<br><br>
+&emsp;But, I've never been one to find meaning in pitiful trinkets, if you could even call what lay in this box a trinket…it's one of bones—old, & decrepit.
 The stench is palpable, the sight is one that would rear a head in both directions, now. 
 These bones were broken long before they wound up in a box like this however.   
 Nothing is *born* broken, after all. 
 
 ***Where will you end up?*** 
 
-These were filed down over years, decades — a lifetime of standing tall does that to you. 
-But then, is it worth it? 
-To stand tall is to stand out as well. That pressure holds weight, and with enough of it, you'd be filed down too…***can you take it?*** <br>
-See, I first began to think mountains could never be moved. That then, the earth held us. Suns were meant to provide warmth. Stars would never mean to die.
+&emsp;These were filed down over years, decades — a lifetime of standing tall does that to you. 
+But then, what is it worth? 
+To stand tall is to stand out as well. 
+That pressure holds weight, and with enough of it, you'd be filed down too…***can you take it?*** <br>
+&emsp;See, I first began to think mountains could never be moved. That then, the earth held us. Suns were meant to provide warmth. Stars would never mean to die.
 
 <br><br>
 
@@ -95,12 +98,13 @@ But not to reveal its threading\!
 
 ---
 
-It was just I, with the last of my embers–stilled.  
-So nigh to ash then, but did you notice...how stoked my flame is right now? Mustn't you forget dear, we are all the same\!   
-You must break\! In now\!\!\!  
+<pre>For a while, it was just I, with the last of my embers–stilled. 
+So nigh to ash then, but did you notice...how stoked my flame is right now? 
+Mustn't you forget dear, we are all the same
+You must break! In now!!
 Go forth, landing on the hardest of beds, you alone. Lie rest in.   
 You again, though. Must. Be. Still.   
-And now, for the first time. 
+And now, for the first time. </pre>
 Accept it.
 Though did you know?  
 That even I, am birthed from these embers that lie deep below the rapture, the calling, your peace.  

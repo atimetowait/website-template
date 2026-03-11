@@ -99,9 +99,6 @@ export function ThisBiasSection() {
 
   return (
     <div className="bias-wrapper">
-      <div className="bias-grain" aria-hidden="true" />
-      <div className="bias-vignette" aria-hidden="true" />
-
       <div className="bias-scroll" ref={scrollRef}>
         <div className="bias-progress-track">
           <div
