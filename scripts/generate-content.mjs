@@ -79,9 +79,16 @@ function generateThisBias() {
   const { data, content } = matter(fileContents)
 
   // Replace LaTeX-style $\quad$ markers with HTML indentation so they don't render as raw text
-  const processedContent = content.replace(/\$\s*\\quad\$/g, "&emsp;&emsp;")
+  // Standalone <br> lines become a placeholder that marked treats as a normal paragraph,
+  // then we swap them for spacer divs after marked finishes processing
+  const processedContent = content
+    .replace(/^\s*<br\s*\/?>\s*$/gm, 'BIAS_SPACER_MARK')
+    .replace(/\$\s*\\quad\$/g, "&emsp;&emsp;")
 
   const html = markdownToHtml(processedContent)
+    .replace(/<br\s*\/?>BIAS_SPACER_MARK(<br\s*\/?>)?/g, '</p>\n<div class="bias-spacer"></div>\n<p>')
+    .replace(/BIAS_SPACER_MARK(<br\s*\/?>)?/g, '</p>\n<div class="bias-spacer"></div>\n<p>')
+    .replace(/<p>\s*<\/p>/g, '')
 
   const page = {
     title: data.title || "This Bias is Beginning to Show",

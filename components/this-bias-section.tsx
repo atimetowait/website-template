@@ -8,8 +8,9 @@ interface ContentBlock {
   html: string
 }
 
-function isEmptyBlock(el: Element): boolean {
+function isSpacer(el: Element): boolean {
   if (el.tagName === "BR") return true
+  if (el.tagName === "DIV" && el.classList.contains("bias-spacer")) return true
   if (el.tagName !== "P") return false
   const text = el.textContent?.replace(/[\s\u00A0]/g, "") || ""
   return text.length === 0
@@ -23,7 +24,7 @@ function parseContentBlocks(html: string): ContentBlock[] {
   for (const child of Array.from(container.children)) {
     if (child.tagName === "H1") {
       blocks.push({ type: "chapter", html: child.innerHTML })
-    } else if (isEmptyBlock(child)) {
+    } else if (isSpacer(child)) {
       blocks.push({ type: "break", html: "" })
     } else {
       blocks.push({ type: "prose", html: child.outerHTML })

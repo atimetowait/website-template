@@ -305,17 +305,6 @@
     margin: 3rem auto;
   }
 
-  /* ===== Pull-quote accent ===== */
-  /* Short bold+italic paragraphs rendered as dramatic callouts */
-
-  .bias-block > p:only-child > em:only-child > strong:only-child {
-    display: block;
-    font-size: 1.25em;
-    text-align: center;
-    padding: 1.25rem 0;
-    letter-spacing: 0.01em;
-  }
-
   /* ===== End spacer ===== */
 
   .bias-end {

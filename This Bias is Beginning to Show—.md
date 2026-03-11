@@ -4,8 +4,11 @@
 Or better yet…a bomb.  
 But this kind has no timer…it just goes, and goes.
 On, to off. It trails to the beats of my chest again, and still. It will rise to this anxiety curdling inside of me.  
-As I'm waiting, it feels like I’m an atom — soon to split. <br><br>
-&emsp;Though, as this bomb is ticking, (it has to be counting in the negatives by now) it’s still mute for everyone else. This is insidious I think, it’s deafening, I know...where is the fissure? When does the redemption from this mortal failure, (some would call it a success) start?<br><br>  
+As I'm waiting, it feels like I’m an atom — soon to split.
+
+<br>
+
+&emsp;Though, as this bomb is ticking, (it has to be counting in the negatives by now) it’s still mute for everyone else. This is insidious I think, it’s deafening, I know...where is the fissure? When does the redemption from this mortal failure, (some would call it a success) start?
 
 *This is maybe just what someone like **me** needs to slowly lose control*—
 **And maybe that’s just what I want.**
@@ -33,43 +36,64 @@ I’m afraid there’s no going back, yes?
 That thought itself, quells the anxiety for a moment maybe too, the idea of finality. No back to forth then back again. 
 Something in finale, encore raised with a roaring crowd.
 
-Things you cannot turn off.
-<br><br>
-*Eyes...up!*
-<br><br>
+<br>
 
-*The ossuary—*<br><br>
+<br>
+
+<br>
+
+<div style="text-align:center"><em>EYES...UP!?</em></div>
+
+<br>
+
+<em>The ossuary—</em>
+
+<br>
+
 It housed the bones I bared before you.   
 Tiny figments of my imagination laid alone in it, dormant through time. 
-I reconcile with it now.<br><br>
+I reconcile with it now.
+
+<br>
+
 &emsp;But, I've never been one to find meaning in pitiful trinkets, if you could even call what lay in this box a trinket…it's one of bones—old, & decrepit.
 The stench is palpable, the sight is one that would rear a head in both directions, now. 
 These bones were broken long before they wound up in a box like this however.   
-Nothing is *born* broken, after all. 
+Nothing is <em>born</em> broken, after all. 
 
-***Where will you end up?*** 
+---
 
-&emsp;These were filed down over years, decades — a lifetime of standing tall does that to you. 
+<div style="text-align:center"><em>WHERE WILL YOU END UP?</em></div>
+
+---
+
+These were filed down over years, decades — a lifetime of standing tall does that to you. 
 But then, what is it worth? 
 To stand tall is to stand out as well. 
-That pressure holds weight, and with enough of it, you'd be filed down too…***can you take it?*** <br>
-&emsp;See, I first began to think mountains could never be moved. That then, the earth held us. Suns were meant to provide warmth. Stars would never mean to die.
+That pressure holds weight, and with enough of it, 
+you'd be filed down too…***can you take it?***
 
-<br><br>
+---
 
-*People, hid no lie.*  
-And there were *never* wrong answers.
-But then you move forward, back.   
-Adjacently now – more than ever.  
+<center><em>See, I first began to think mountains could never be moved.
 
-*For if parallels were in our forms, they exist to keep us there.*
-*Suspended, one-to-one.*
-*Same-like.*
-*No differs here.*
-*A contract, sealed with finites.*
+That then, the earth held us. Suns were meant to provide warmth. 
 
-<br><br>
+Stars would never mean to die.</em></center>
+<center><em>People, hid no lie.
 
+And there were never wrong answers.
+But then you move forward, back. 
+
+Adjacently now – more than ever.</em></center>
+<center><em>For if parallels were in our forms, they exist to keep us there.
+
+Suspended, one-to-one.
+Same-like.
+No differs here.
+A contract, sealed with finites.</center></em>
+
+---
 
 Now…one must first start in a head, body-like motion.   
 All in which never seems – still.
@@ -82,7 +106,7 @@ Is it beautiful...to you?
 Tug on it a lot actually.  
 But not to reveal its threading\!
 
----
+
 
 *Just enough for it to take shape in those...smaller spaces, like you take forth now.*
 
