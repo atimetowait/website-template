@@ -9,24 +9,32 @@ As I'm waiting, it feels like I’m an atom — soon to split.
 <br>
 
 &emsp;Though, as this bomb is ticking, (it has to be counting in the negatives by now) it’s still mute for everyone else. This is insidious I think, it’s deafening, I know...where is the fissure? When does the redemption from this mortal failure, (some would call it a success) start?
-
+<br>
 *This is maybe just what someone like **me** needs to slowly lose control*—
+<br>
 **And maybe that’s just what I want.**
 
 ---
 
-*"It reverberates, and echoes you know.*
-*It bounces off the primordial walls in my head, others...find harmony there.*
-*I find it running parallel to everything I’ve ever feared since I was a figurine.* 
-*Tick, Tock.*
-*It moves again…and I can feel the hour hand now...it’s creeping slowly up my spine.*
+<center><em>"It reverberates, and echoes you know.
 
-*Tick. Tock…*
+It bounces off the primordial walls in my head, others...find harmony there.
+I find it running parallel to everything I’ve ever feared since I was a figurine.
+
+Tick, Tock.
+
+It moves again…and I can feel the hour hand now...it’s creeping slowly up my spine.
+
+Tick. Tock…
 	
-*...and there it goes again. I’m trying to catch the moments of the in-betweens, it only leaves you stuck on the offbeat if you try to keep up.*
+...and there it goes again. I’m trying to catch the moments of the in-betweens, 
+it only leaves you stuck on the offbeat if you try to keep up.
 
-*Tick...tock — The second hand didn’t even move an inch.*
-*Enough."*
+
+Tick...tock — The second hand didn’t even move an inch.
+
+
+Enough."</em></center>
 
 ---
 
