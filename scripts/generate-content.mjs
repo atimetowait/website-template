@@ -89,6 +89,10 @@ function generateThisBias() {
     .replace(/<br\s*\/?>BIAS_SPACER_MARK(<br\s*\/?>)?/g, '</p>\n<div class="bias-spacer"></div>\n<p>')
     .replace(/BIAS_SPACER_MARK(<br\s*\/?>)?/g, '</p>\n<div class="bias-spacer"></div>\n<p>')
     .replace(/<p>\s*<\/p>/g, '')
+    .replace(/<p>([\s\S]*?)<\/p>/g, (match, inner) => {
+      const fixed = inner.replace(/([^>])\n(?=[^<])/g, '$1<br>\n')
+      return '<p>' + fixed + '</p>'
+    })
 
   const page = {
     title: data.title || "This Bias is Beginning to Show",
