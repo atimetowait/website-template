@@ -17,7 +17,6 @@ As I'm waiting, it feels like I’m an atom — soon to split.
 ---
 
 <center><em>"It reverberates, and echoes you know.
-
 It bounces off the primordial walls in my head, others...find harmony there.
 I find it running parallel to everything I’ve ever feared since I was a figurine.
 
@@ -27,21 +26,19 @@ It moves again…and I can feel the hour hand now...it’s creeping slowly up my
 
 Tick. Tock…
 	
-...and there it goes again. I’m trying to catch the moments of the in-betweens, 
+...and there it goes again. 
+I’m trying to catch the moments of the in-betweens, 
 it only leaves you stuck on the offbeat if you try to keep up.
 
-
 Tick...tock — The second hand didn’t even move an inch.
-
 
 Enough."</em></center>
 
 ---
 
-Was it supposed to be this way? 
-Caught in-between a broken clock, and the undoing of time itself. 
-I’m afraid there’s no going back, yes?
-That thought itself, quells the anxiety for a moment maybe too, the idea of finality. No back to forth then back again. 
+&emsp;Was it supposed to be this way? 
+Caught in-between a broken clock, and the undoing of time itself. I’m afraid there’s no going back, yes?
+&emsp;That thought itself, quells the anxiety for a moment maybe too, the idea of finality. No back to forth then back again. 
 Something in finale, encore raised with a roaring crowd.
 
 <br>
@@ -77,25 +74,23 @@ Nothing is <em>born</em> broken, after all.
 
 These were filed down over years, decades — a lifetime of standing tall does that to you. 
 But then, what is it worth? 
+<br>
 To stand tall is to stand out as well. 
 That pressure holds weight, and with enough of it, 
-you'd be filed down too…***can you take it?***
+you'd be filed down too
+<br>
+<center><em>…can you take it?</center></em>
 
 ---
 
 <center><em>See, I first began to think mountains could never be moved.
-
 That then, the earth held us. Suns were meant to provide warmth. 
-
-Stars would never mean to die.</em></center>
-<center><em>People, hid no lie.
-
+Stars would never mean to die.
+People, hid no lie.
 And there were never wrong answers.
 But then you move forward, back. 
-
-Adjacently now – more than ever.</em></center>
-<center><em>For if parallels were in our forms, they exist to keep us there.
-
+Adjacently now – more than ever.
+For if parallels were in our forms, they exist to keep us there.
 Suspended, one-to-one.
 Same-like.
 No differs here.
@@ -103,7 +98,7 @@ A contract, sealed with finites.</center></em>
 
 ---
 
-Now…one must first start in a head, body-like motion.   
+<center><em>Now…one must first start in a head, body-like motion.   
 All in which never seems – still.
 Seconded though, a forwardness remains.  
 A prior kin, a lost ark, a bound to hold.
@@ -114,10 +109,7 @@ Is it beautiful...to you?
 Tug on it a lot actually.  
 But not to reveal its threading!
 
-<br>
-
-<center><em>Just enough for it to take shape in those...smaller spaces, like you take forth now.
-
+Just enough for it to take shape in those...smaller spaces, like you take forth now.
 "You’ve been so thin – for so long?
 For why?
 Yet, there’s still no threading to you! 
@@ -159,28 +151,34 @@ That you – Above all the other morally dissonant beings.
 
 ---
 
-*You now…only light into rebirths\!\!\! Aren't you thrilled? There is no succumbed ache to replace a feeling like – that.*
-Though, once you finally let it take you over. There's the thrills end. Then, it shall finally be time to revel in your prowess. The differences in you & I, for example\!  
-Like that threading in you. It can make twine even, did you know?  
+&emsp;*You now…only light into rebirths\!\!\! Aren't you thrilled? There is no succumbed ache to replace a feeling like – that.*
+<br>
+&emsp;Though, once you finally let it take you over. There's the thrills end. Then, it shall finally be time to revel in your prowess. The differences in you & I, for example\!  
+&emsp;Like that threading in you. It can make twine even, did you know?  
 Into yarn too, to rope, now. Further it then\!  
-But no…
-No tying of those noose-like knots you only, can never do correct. You failed then, and will fail towards it again.
-Now\!\!\! 
-Your yarn\!    
+<br>
+<center>But no…</center>
+
+---
+
+<center><em>No tying of those noose-like knots you only, can never do correct. 
+You failed then, and will fail towards it again.
+Now!
+Your yarn!!   
 Make it into rope.   
 A bridge now too.  
 
 NO\!  
-Maybe keep it as rope, actually\!\!\!  
+Maybe keep it as rope, actually!!! 
 Pull up that kinship that rests – that one like before\! 
-The one that lays down under\!\!\!  
+The one that lays down under!!
 Look towards the abyss, And next…  
 See what you alone will find.  
 Maybe more of you? – the same?
 
 Pull up your kin, then. If that’s still you...
 
-*I must add.*
+I must add.</center></em>
 
 # Oddity 2: Night Terror
 
