@@ -151,8 +151,7 @@ That you – Above all the other morally dissonant beings.
 
 ---
 
-&emsp;*You now…only light into rebirths\!\!\! Aren't you thrilled? There is no succumbed ache to replace a feeling like – that.*
-<br>
+&emsp;You now…only light into rebirths\!\!\! Aren't you thrilled? There is no succumbed ache to replace a feeling like – that.
 &emsp;Though, once you finally let it take you over. There's the thrills end. Then, it shall finally be time to revel in your prowess. The differences in you & I, for example\!  
 &emsp;Like that threading in you. It can make twine even, did you know?  
 Into yarn too, to rope, now. Further it then\!  
@@ -198,20 +197,17 @@ It may be the only thing that makes sense after what happened before.</center></
 The sort of rain that can just exist, but the miserable people will still complain about the slight dampening on their dress.  
 It seems I'll have to be the miserable one too, and say, I really loathe those types—the complainers. 
 <br>
-&emsp;So I'll just settle with this. I really like rainy weather.  
-Much like how I *love* this long hair.   
+&emsp;So I'll just settle with this. I really like rainy weather. Much like how I *love* this long hair.   
 I just only realized how much of a love it is actually.
-
-*I fell asleep again but was jolted out of a rem cycle this time.*
-
-As I came to, out of a nightmare I can't even remember, I know that my hands, fingers, went immediately towards my knotted bed head and tugged out of desperation…akin to a plead…*"yeah, it's still long."*
 <br>
+<center><em>I fell asleep again but was jolted out of a rem cycle this time.</center></em>
+<br>
+&emsp;As I came to, out of a nightmare I can't even remember, I know that my hands, fingers, went immediately towards my knotted bed head and tugged out of desperation…akin to a plead…<em>"yeah, it's still long."</em> <br>
 &emsp;I settled down a bit after the immediate, then leaned into the next, fleeting thought. To which I would soon forget.
-<br>
 &emsp;As my memory fades, a feeling that either takes your tongue, or waits for you to choke the same—envelops me. Something that lies dormant, beneath breathy whispers, and music only slightly out of key. It tastes of stilled liquor, it's near-sighted—*and I can't fight back.* I want to know what it is, I want to be what it is, without knowing it at all. All I do know however, is the chasms of homes locked in perpetual wars. 
 &emsp;Stricken belief systems, rigid...you die there.   
-Much like in staying put, much like in staying home, *nothing ever happens,* and it's happening to everyone. Everywhere I go, like moths drawn to flames, like threadings soon to twine, there is something so much more to bear, and it eats at everyone.
-<br>
+Much like in staying put, much like in staying home, <em>nothing ever happens,</em> and it's happening to everyone. Everywhere I go, like moths drawn to flames, like threadings soon to twine, there is something so much more to bear, and it eats at everyone.
+
 <center><em>"It is everyone, now that I think. 
 And everywhere I look,  
 I see your eyes again, and I’m choked 
