@@ -58,7 +58,7 @@ Something in finale, encore raised with a roaring crowd.
 
 <br>
 
-It housed the bones I bared before you.   
+&emsp;It housed the bones I bared before you.   
 Tiny figments of my imagination laid alone in it, dormant through time. 
 I reconcile with it now.
 
@@ -112,46 +112,52 @@ Threaded through into secant lines.
 Tug on one, small-like.  
 Is it beautiful...to you?   
 Tug on it a lot actually.  
-But not to reveal its threading\!
+But not to reveal its threading!
 
+<br>
 
+<center><em>Just enough for it to take shape in those...smaller spaces, like you take forth now.
 
-*Just enough for it to take shape in those...smaller spaces, like you take forth now.*
-
-*"You’ve been so thin – for so long?*  
-*For why?* 
-*Yet, there’s still no threading to you!* 
-*Nor thread-like lines exposed!!!*   
-*No frizz from the friction, or worn down nature in your frame. No guidance to follow towards your aches...no rhyme to the songs you alone sing.*  
-*Though, I know all of which has been shaving, weighing...even breaking you down. Again I ask, why?*  
-*You would look so forlorn unraveled-like. It’s a blessing you did not!*  
-*It reminds me of that time, I too.*  
-*Was reduced."*
+"You’ve been so thin – for so long?
+For why?
+Yet, there’s still no threading to you! 
+Nor thread-like lines exposed!!! 
+No frizz from the friction, or worn down nature in your frame. 
+No guidance to follow towards your aches...no rhyme to the songs you alone sing. 
+Though, I know all of which has been shaving, weighing...even breaking you down. Again I ask, why?  
+You would look so forlorn unraveled-like. It’s a blessing you did not!*  
+It reminds me of that time, I too.
+Was reduced."</center></em>
 
 ---
 
-<pre>For a while, it was just I, with the last of my embers–stilled. 
+&emsp;For a while, it was just I, with the last of my embers–stilled. 
 So nigh to ash then, but did you notice...how stoked my flame is right now? 
 Mustn't you forget dear, we are all the same
 You must break! In now!!
-Go forth, landing on the hardest of beds, you alone. Lie rest in.   
+&emsp;Go forth, landing on the hardest of beds, you alone. Lie rest in.   
 You again, though. Must. Be. Still.   
-And now, for the first time. </pre>
+And now, for the first time.
 Accept it.
-Though did you know?  
-That even I, am birthed from these embers that lie deep below the rapture, the calling, your peace.  
+&emsp;Though did you know? That even I, am birthed from these embers that lie deep below the rapture, the calling, your peace.  
 But for now, please hold some mindfulness here.  
 Nothing…comes from ash. You must break, collapse...then finally\!  
 Eclipse yourself in nature, and last now\!\!\!
 
-*Forsake them.*  
+---
+
+<center><em>
+Forsake them.
 All. Of. Them.
-***For all who bear witness to this inwards collapse.***
-*Believe me.*
-*They cannot do anything but, forever work to quell those imminent pulses.*
-*For you now, – have perused their own. Seek solace through that.*
-*That you – Above all the other morally dissonant beings.*
-**"*Are finally whole."***
+For all who bear witness to this inwards collapse.
+Believe me.
+They cannot do anything but, forever work to quell those imminent pulses
+For you now, – have perused their own. Seek solace through that.
+That you – Above all the other morally dissonant beings.
+"Are finally whole."
+</em></center>
+
+---
 
 *You now…only light into rebirths\!\!\! Aren't you thrilled? There is no succumbed ache to replace a feeling like – that.*
 Though, once you finally let it take you over. There's the thrills end. Then, it shall finally be time to revel in your prowess. The differences in you & I, for example\!  

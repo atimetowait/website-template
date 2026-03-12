@@ -283,6 +283,12 @@
     }
   }
 
+  /* ===== Centered blocks preserve newlines ===== */
+
+  .this-bias-content center {
+    white-space: pre-line;
+  }
+
   /* ===== Line breaks (<br> on its own line) ===== */
 
   .bias-line-break {
