@@ -72,10 +72,10 @@ Nothing is <em>born</em> broken, after all.
 
 ---
 
-These were filed down over years, decades — a lifetime of standing tall does that to you. 
+&emsp;These were filed down over years, decades — a lifetime of standing tall does that to you. 
 But then, what is it worth? 
 <br>
-To stand tall is to stand out as well. 
+&emsp;To stand tall is to stand out as well. 
 That pressure holds weight, and with enough of it, 
 you'd be filed down too
 <br>
@@ -117,7 +117,7 @@ Nor thread-like lines exposed!!!
 No frizz from the friction, or worn down nature in your frame. 
 No guidance to follow towards your aches...no rhyme to the songs you alone sing. 
 Though, I know all of which has been shaving, weighing...even breaking you down. Again I ask, why?  
-You would look so forlorn unraveled-like. It’s a blessing you did not!*  
+You would look so forlorn unraveled-like. It’s a blessing you did not!  
 It reminds me of that time, I too.
 Was reduced."</center></em>
 
