@@ -90,7 +90,15 @@ function generateThisBias() {
     .replace(/BIAS_SPACER_MARK(<br\s*\/?>)?/g, '</p>\n<div class="bias-spacer"></div>\n<p>')
     .replace(/<p>\s*<\/p>/g, '')
     .replace(/<p>([\s\S]*?)<\/p>/g, (match, inner) => {
-      const fixed = inner.replace(/([^>])\n(?=[^<])/g, '$1<br>\n')
+      const saved = []
+      const masked = inner.replace(/<center>[\s\S]*?<\/center>/g, (m) => {
+        saved.push(m)
+        return `__CENTER_${saved.length - 1}__`
+      })
+      let fixed = masked.replace(/([^>])\n(?=[^<])/g, '$1<br>\n')
+      saved.forEach((block, i) => {
+        fixed = fixed.replace(`__CENTER_${i}__`, block)
+      })
       return '<p>' + fixed + '</p>'
     })
 
