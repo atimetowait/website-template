@@ -76,7 +76,7 @@ export function AboutSection() {
             Github
           </a>
           <a
-            href="https://www.instagram.com/timescribing"
+            href="https://www.instagram.com/atimewaited"
             target="_blank"
             rel="noopener noreferrer"
             className="text-foreground opacity-70 underline decoration-dotted decoration-1 underline-offset-2 transition-all hover:opacity-100 hover:decoration-solid"
